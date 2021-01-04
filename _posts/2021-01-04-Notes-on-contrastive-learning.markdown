@@ -62,12 +62,12 @@ The core of contrastive learning is the Noise Contrastive Estimator (NCE) loss.
 
 <img src="https://alwaysbyx.github.io/assets/cl01.png" style="zoom:40%" />  
 
-> To train SimCLR, I took the **train + unlabeled** portions of the dataset – that gives a total of 105000 images.
-> After training, we need a way to evaluate the quality of the representations learned by SimCLR. One standard way is to use a linear evaluation protocol.
-> The idea is to train linear classifiers on fixed representations from the SimCLR encoder. To do that, we take the training data, pass it through the pre-trained SimCLR model, and store the output representations. Note that at this point, we do not need the projection head g(.) anymore.
-> These fixed representations are then used to train a Logistic Regression model using the training labels as targets. Then, we can measure the testing accuracy, and use it as a measure of feature quality.
-> This Jupyter Notebook shows the evaluation protocol. Using the SimCLR fixed representations as training signals, we reach a test accuracy of 64%. To have an idea, performing PCA on the training data and keeping the most important principal components, we get a test accuracy of only 36%. This emphasizes the quality of the features leaned by SimCLR.
-> From [simple self-supervised learning](https://sthalles.github.io/simple-self-supervised-learning/)
+> To train SimCLR, I took the **train + unlabeled** portions of the dataset – that gives a total of 105000 images.  
+After training, we need a way to evaluate the quality of the representations learned by SimCLR. One standard way is to use a linear evaluation protocol.  
+The idea is to train linear classifiers on fixed representations from the SimCLR encoder. To do that, we take the training data, pass it through the pre-trained SimCLR model, and store the output representations. Note that at this point, we do not need the projection head g(.) anymore.  
+These fixed representations are then used to train a Logistic Regression model using the training labels as targets. Then, we can measure the testing accuracy, and use it as a measure of feature quality.  
+This Jupyter Notebook shows the evaluation protocol. Using the SimCLR fixed representations as training signals, we reach a test accuracy of 64%. To have an idea, performing PCA on the training data and keeping the most important principal components, we get a test accuracy of only 36%. This emphasizes the quality of the features leaned by SimCLR.  
+From [simple self-supervised learning](https://sthalles.github.io/simple-self-supervised-learning/)
 
 
 
