@@ -7,8 +7,8 @@ categories: ComputerVersion, models
 
 
 
-## CNN
-<div align=center><img src="https://alwaysbyx.github.io/assets/cnn.png" style="zoom:70%"></div>
+# CNN
+<div align=center><img src="https://alwaysbyx.github.io/assets/cnn.png" style="zoom:50%"></div>
 
 1. feature map (aka. avtivation map)  
 input 32\*32\*3 filter 5\*5\*3 -> output 28\*28\*1  
@@ -22,7 +22,7 @@ methods: max, average, sum; exp. max pool with 2\*2 filters and stride 2
 
 第一层Conv得到activation map, 提取低层特征（边缘曲线etc); 用ReLU激活后，进入第二层Conv, 从低层次特征提取高层次特征  
 
-## Resnet, Deep Residual Learning
+# Resnet, Deep Residual Learning
 Adding more layers (deep learning) leads to a higher training error, and to solve this problem, Kaiming He,etc proposed Resnet.  
 > There exists a solution by construction to the deeper model: the added layers are identity mapping, and the other layers are copied from the learned shallower model. The existence of this constructed solution indicates that a deeper model should produce no higher training error than its shallower counterpart.  
 
@@ -46,7 +46,8 @@ There are 5 types of Resnet:
 * Res50
 * Res101
 * Res152  
-<img src="https://alwaysbyx.github.io/assets/resnet.png" style="zoom:35%" />
+<div align=center><img src="https://alwaysbyx.github.io/assets/resnet.png" style="zoom:35%"></div>
+
 ResNet50起，采用Bottleneck结构，引入1\*1卷积核，可以：  
 * 对通道数进行升维和降维（跨通道信息整合），实现了多个特征图的线性组合，同时保持了原有的特征图大小；
 * 相比于其他尺寸的卷积核，可以极大地降低运算复杂度；
@@ -60,7 +61,7 @@ The core of contrastive learning is the Noise Contrastive Estimator (NCE) loss.
 
 > SimCLR uses ResNet-50 as the main ConvNet backbone. The ResNet receives an augmented image of shape (224,224,3) and outputs a 2048-dimensional embedding vector **h**. Then, a projection head **g(.)** is applied to the embedding vector **h** which produces a final representation z=g(h). The projection head **g(.)** is a Multilayer Perceptron (MLP) with 2 dense layers. Both layers have 2048 units and the hidden layer has a non-linearity (ReLU) activation function.  
 
-<img src="https://alwaysbyx.github.io/assets/cl01.png" style="zoom:40%" />  
+<div align=center><img src="https://alwaysbyx.github.io/assets/cl01.png" style="zoom:40%" ></div>  
 
 > To train SimCLR, I took the **train + unlabeled** portions of the dataset – that gives a total of 105000 images.  
 After training, we need a way to evaluate the quality of the representations learned by SimCLR. One standard way is to use a linear evaluation protocol.  
