@@ -2,7 +2,7 @@
 layout: post
 title:  "notes on contrastive learning"
 date:   2021-01-04 21:03:36 +0530
-categories: ComputerVersion, models
+categories: ComputerVersion models
 ---
 
 
@@ -57,11 +57,11 @@ ResNet50起，采用Bottleneck结构，引入1\*1卷积核，可以：
 <img src="https://alwaysbyx.github.io/assets/cl.png" style="zoom:80%" />  
 
 The core of contrastive learning is the Noise Contrastive Estimator (NCE) loss.
-<img src="https://alwaysbyx.github.io/assets/nceloss.png" style="zoom:80%" />  
+<img src="https://alwaysbyx.github.io/assets/nceloss.png" style="zoom:50%" />  
 
 > SimCLR uses ResNet-50 as the main ConvNet backbone. The ResNet receives an augmented image of shape (224,224,3) and outputs a 2048-dimensional embedding vector **h**. Then, a projection head **g(.)** is applied to the embedding vector **h** which produces a final representation z=g(h). The projection head **g(.)** is a Multilayer Perceptron (MLP) with 2 dense layers. Both layers have 2048 units and the hidden layer has a non-linearity (ReLU) activation function.  
 
-<div align=center><img src="https://alwaysbyx.github.io/assets/cl01.png" style="zoom:40%" ></div>  
+<div align=center><img src="https://alwaysbyx.github.io/assets/cl01.png" style="zoom:30%" ></div>  
 
 > To train SimCLR, I took the **train + unlabeled** portions of the dataset – that gives a total of 105000 images.  
 After training, we need a way to evaluate the quality of the representations learned by SimCLR. One standard way is to use a linear evaluation protocol.  
