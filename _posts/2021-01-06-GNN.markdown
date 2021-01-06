@@ -5,8 +5,7 @@ date:   2021-01-06 21:03:36 +0530
 categories: DeepLearning GraphNeuralNetwork
 ---
 
-$$H^{t+1} = \hat{A}H^{t}W$$
-$$\hat{A} = I_n + D^{-\frac{1}{2}}AD^{-\frac{1}{2}}$$
+Graph neural networks (GNNs) are connectionist models that capture the dependence of graphs via message passing between the nodes of graphs. Unlike standard neural networks, graph neural networks retain a state that can represent information from its neighborhood with arbitrary depth. Although the primitive GNNs have been found difficult to train for a fixed point, recent advances in network architectures, optimization techniques, and parallel computation have enabled successful learning with them.
 
 # Introduction
 Graphs are a kind of data structure which models a set
@@ -26,21 +25,22 @@ GNN has the following edges:
 First proposed in [1].
 The target of GNN is to learn a state embedding $h_v \in R^{s}$ which contains the information of neighborhood for each node. The state embedding hv is an s-dimension vector of node v and can be used to produce an output $o_v$ such as the node label.  
 $$h_v = f(x_v,x_{co[v]},h_{ne[v]},x_{ne[v]})$$
-$$o_v = g(h_v,x_v)$$
-$$H=F(H,X)$$
-$$O=G(H,X_N)$$
-$$H^{t+1}=F(H^t,X)$$
-t denotes the t-th iteration
-$$loss=\sum^p_{i=1}(t_i-o_i)$$
+$$o_v = g(h_v,x_v)$$  
+$$H=F(H,X)$$  
+$$O=G(H,X_N)$$  
+$$H^{t+1}=F(H^t,X)$$  
+t denotes the t-th iteration  
+$$loss=\sum^p_{i=1}(t_i-o_i)$$  
 > - The states $h_v^t$ are iteratively updated by Eq. 1 until a time T. They approach the fixed point solution of Eq. 3: H(T) ≈ H. 
 > - The gradient of weights W is computed from the loss.
 > - The weights W are updated according to the **gradient-descent strategy** computed in the last step.
+
 ### Limitations
 - inefficient to update the hidden states of nodes iteratively for the fixed point
 -  hierarchical feature extraction method
 -  unable to learn the hidden states of edges
 - unsuitable to use the fixed points if we focus on the **representation of nodes** instead of graphs
-<img src="https://alwaysbyx.github.io/assets/GNN_propagation.png" style="zoom:60%" /> 
+<img src="https://alwaysbyx.github.io/assets/GNN_propagation.png" style="zoom:80%" /> 
 
 # Reference
 [1]F. Scarselli, M. Gori, A. C. Tsoi, M. Hagenbuchner, and G. Monfardini, “The graph neural network model,” IEEE TNN 2009, vol. 20,
