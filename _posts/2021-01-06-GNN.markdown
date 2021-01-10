@@ -42,6 +42,20 @@ $$loss=\sum^p_{i=1}(t_i-o_i)$$
 - unsuitable to use the fixed points if we focus on the **representation of nodes** instead of graphs
 <img src="https://alwaysbyx.github.io/assets/GNN_propagation.png" style="zoom:80%" /> 
 
+## Graph Convolutional Network
+- define Fourier Transformation in Graph when investigating GSP(graph signal processing)
+- define convolution in graph
+- aggregated with deep learning to propose GCN  
+<img src="https://alwaysbyx.github.io/assets/gcn-01.png"/> 
+常用的拉普拉斯矩阵有三种：
+1. $L=D-A$ Combinatorial Laplacian
+2. $L^{sys}=D^{-\frac{1}{2}}LD^{-\frac{1}{2}}$ Symmetric normalized Laplacian (often used)
+3. $L^{rw}=D^{-1}L$ random walk normalized Laplacian  
+$$y_{output} = \sigma(\sum_{j=0}^{K-1}\alpha_jL^jx)$$
+- 卷积核只具有k个参数
+- convolutional filter具有很好的spatial localization,k代表receptive field
+- L不需要进行特征分解，
+
 # Reference
 [1]F. Scarselli, M. Gori, A. C. Tsoi, M. Hagenbuchner, and G. Monfardini, “The graph neural network model,” IEEE TNN 2009, vol. 20,
 no. 1, pp. 61–80, 2009.  

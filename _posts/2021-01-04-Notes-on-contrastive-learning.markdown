@@ -1,15 +1,16 @@
 ---
 layout: post
-title:  "notes on contrastive learning"
+title:  "Notes on contrastive learning"
 date:   2021-01-04 21:03:36 +0530
 categories: ComputerVersion models
 ---
 
 
 
-# CNN
+
 <div align=center><img src="https://alwaysbyx.github.io/assets/cnn.png" style="zoom:50%"></div>
 
+# CNN
 1. feature map (aka. avtivation map)  
 input 32\*32\*3 filter 5\*5\*3 -> output 28\*28\*1  
 if we have two filters, then output is 28\*28\*2  
