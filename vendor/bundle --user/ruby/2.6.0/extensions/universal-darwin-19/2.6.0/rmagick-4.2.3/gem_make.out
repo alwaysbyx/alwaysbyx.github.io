@@ -1,9 +1,10 @@
 current directory: /Users/bb/Documents/GitHub/alwaysbyx.github.io/vendor/bundle --user/ruby/2.6.0/gems/rmagick-4.2.3/ext/RMagick
-/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20211108-85272-y1wbej.rb extconf.rb
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20211108-87528-1sqvr8r.rb extconf.rb
 /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/universal-darwin19/rbconfig.rb:229: warning: Insecure world writable dir /usr/local/sbin in PATH, mode 040777
 checking for brew... yes
 checking for Ruby version >= 2.3.0... yes
 checking for pkg-config... yes
+checking for forced use of ImageMagick 6... no
 checking for outdated ImageMagick version (<= 6.7.7)... no
 checking for xcrun... yes
 checking for __GNUC__... *** extconf.rb failed ***

@@ -1,5 +1,5 @@
 current directory: /Users/bb/Documents/GitHub/alwaysbyx.github.io/vendor/bundle --user/ruby/2.6.0/gems/eventmachine-1.2.7/ext
-/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20211108-85272-1ittexi.rb extconf.rb
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20211108-87528-artwm.rb extconf.rb
 /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/universal-darwin19/rbconfig.rb:229: warning: Insecure world writable dir /usr/local/sbin in PATH, mode 040777
 checking for -lcrypto... *** extconf.rb failed ***
 Could not create Makefile due to some reason, probably lack of necessary

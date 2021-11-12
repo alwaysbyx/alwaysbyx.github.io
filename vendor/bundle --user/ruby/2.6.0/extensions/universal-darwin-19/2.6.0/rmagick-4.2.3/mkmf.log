@@ -10,16 +10,20 @@ find_executable: checking for pkg-config... -------------------- yes
 
 --------------------
 
+determine_imagemagick_package: checking for forced use of ImageMagick 6... -------------------- no
+
+--------------------
+
 assert_has_dev_libs!: checking for outdated ImageMagick version (<= 6.7.7)... -------------------- no
 
-Detected ImageMagick version: 6.9.12
+Detected ImageMagick version: 7.1.0
 --------------------
 
 find_executable: checking for xcrun... -------------------- yes
 
 --------------------
 
-"xcrun clang -o conftest -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0/universal-darwin19 -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0/ruby/backward -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick@6/6.9.12-28/include/ImageMagick-6  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick@6/6.9.12-28/include/ImageMagick-6 conftest.c  -L. -L/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib  -L/usr/local/Cellar/imagemagick@6/6.9.12-28/lib -lMagickCore-6.Q16  -arch x86_64  -L/usr/local/Cellar/imagemagick@6/6.9.12-28/lib -lMagickCore-6.Q16  -lruby.2.6   "
+"xcrun clang -o conftest -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0/universal-darwin19 -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0/ruby/backward -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0 -I.  -Xpreprocessor -fopenmp -DMAGICKCORE_HDRI_ENABLE=1 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/7.1.0-13/include/ImageMagick-7  -Xpreprocessor -fopenmp -DMAGICKCORE_HDRI_ENABLE=1 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/7.1.0-13/include/ImageMagick-7 conftest.c  -L. -L/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib  -L/usr/local/Cellar/imagemagick/7.1.0-13/lib -lMagickCore-7.Q16HDRI  -arch x86_64  -L/usr/local/Cellar/imagemagick/7.1.0-13/lib -lMagickCore-7.Q16HDRI  -lruby.2.6   "
 In file included from conftest.c:1:
 In file included from /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0/ruby.h:33:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0/ruby/ruby.h:24:10: fatal error: 'ruby/config.h' file not found
