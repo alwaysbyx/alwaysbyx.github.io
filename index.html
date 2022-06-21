@@ -1,236 +1,619 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE HTML>
+<html lang="en"><head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+   <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162765518-1"></script>
+   <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    gtag('config', 'UA-162765518-1');
+   </script> -->
+
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <title>Yuexin Bian</title>
+   
+
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Yuexin Bian's Homepage</title>
-  <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
-  <!--<link rel="shortcut icon" href="../images/fav_icon.png" type="image/x-icon">-->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-  <!-- Bulma Version 0.7.5-->
-  <link rel="stylesheet" href="https://unpkg.com/bulma@0.7.5/css/bulma.min.css" />
-  <link href='css/style.css' rel='stylesheet' type='text/css'>
-  <script defer src="font-awesome-5.9.0/js/brands.min.js"></script>
-  <script defer src="font-awesome-5.9.0/js/fontawesome.min.js"></script>
-  <script src="js/menuspy.js"></script>
-  <meta name="google-site-verification" content="pVNDAjKY3KdVUp4oE7g30oUN2KPblh2VNnvtx1OMToE" />
+  
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <!-- <link rel="icon" type="image/png" href="images/ms-icon.png">  -->
+
+  <style>
+    :root {
+      --container: 800px; /* smaller container for bio and news*/
+      --container-wide: 960px; /* bigger container for research*/
+    }
+
+    .container {
+      max-width: var(--container);
+    }
+
+    .container-wide {
+      max-width: var(--container-wide);
+    }
+
+    .hidden {
+      display: none;
+    }
+  </style>
+
+    <script type="text/javascript">
+      const BlockToggler = function() {
+        let activeBlock = null
+        function toggleblock(selector) {
+          console.log('toggleblock', selector)
+          if (activeBlock) {
+            document.getElementById(activeBlock).style.display = 'none'
+          }
+          activeBlock = selector
+          document.getElementById(selector).style.display = 'block'
+        }
+
+
+        return {
+          toggleblock
+        }
+      }
+
+      let activeBlock = null
+      function toggleblock(selector) {
+        console.log('toggleblock', selector)
+        if (activeBlock) {
+          document.getElementById(activeBlock).style.display = 'none'
+        }
+        document.getElementById(selector).style.display = selector === activeBlock ? 'none' : 'block'
+        if (activeBlock === selector) {
+          activeBlock = null
+        } else {
+          activeBlock = selector
+        }
+      }
+
+
+    </script>
+
 </head>
 
 <body>
-  <section class="section">
-    <div class="container">
-      <div class="columns">
-        <div class="column is-2">
-          <div class="sticky">
-            <figure class="image is-128x128">
-              <img class="is-rounded" src="https://alwaysbyx.github.io/images/sfphoto.png">
-            </figure>
-            <div class="content">
-              <h3>Yuexin Bian</h3>
-              <h6>Ph.D. Student</h6>
-            </div>
-            <!-- details -->
-            <div class="details">
-              <h3>EMAIL</h3>
-              <p><a href="mailto:alwaysbyx@gmail.com">alwaysbyx<br>[at]gmail[dot]com</a></p>
-            </div>
-            <!-- social network icons -->
-            <div class="social">
-              <a href="https://github.com/alwaysbyx" target="_blank">
-                <span class="fab fa-github fa-2x" style="display:inline; text-decoration: none"></span>
-              </a>
-              <!-- <a href="https://scholar.google.com/citations?user=5NdPrUgAAAAJ&hl=en" target="_blank">
-                <span class="fab fa-google fa-2x" style="display:inline; text-decoration: none"></span>
-              </a> -->
-              <a href="https://www.linkedin.com/in/yuexin-bian-516222202/" target="_blank">
-                <span class="fab fa-linkedin fa-2x" style="display:inline; text-decoration: none"></span>
-              </a>
-              <a href="https://space.bilibili.com/294684172" target="_blank">
-                <span class="fab fa-bilibili fa-2x" style="display:inline; text-decoration: none"></span>
-              </a>
-              <!--<a href="https://www.facebook.com/tianweishen.shen" target="_blank">-->
-                <!--<span class="fab fa-facebook fa-2x" style="display:inline; text-decoration: none"></span>-->
-              <!--</a>-->
-              <!--<a href="https://twitter.com/HegongEngineer" target="_blank">-->
-                <!--<span class="fab fa-twitter fa-2x" style="display:inline; text-decoration: none"></span>-->
-              <!--</a>-->
-            </div>
+
+  <style>
+    .profile-photo-link img {
+      width: 80%;
+            max-width: 80%;
+    }
+    @media (max-width: 500px) {
+      .about-section {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+      }
+
+      .profile-photo-link {
+        display: block;
+        
+      }
+
+      .profile-photo-link img {
+        width: 100%;
+        max-width: 100%;
+        display: block;
+      }
+    }
+  </style>
+  <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <tr style="padding:0px">
+      <td style="padding:0px">
+        <table class="container" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr class="about-section" style="padding:0px">
+            <td style="padding:2.5%;width:63%;vertical-align:middle">
+              <p style="text-align:center">
+                <name>Yuexin Bian</name><br>
+		yubian  at ucsd dot edu
+              </p>
+              <p> I am a first year PhD student in ECE department at <a href="https://www.ece.ucsd.edu/">University of California San Diego</a>, advised by <a href="https://yyshi.eng.ucsd.edu/">Prof. Yuanyuan Shi</a>. 
+                My research interests include optimization and control.
+               
+              </p>
+              <p>Before starting my graduate education at UC San Diego, I completed my undergraduate degree in Electrical Engineering from the <a href="https://www.zju.edu.cn/english/">Zhejiang University</a> in China.
+              </p>
+              <p style="text-align:center">
+                <a href="mailto:yubian@ucsd.edu">Email</a> &nbsp/&nbsp
+                <!--<a href="">Bio</a> &nbsp/&nbsp-->
+                <a href="data/cv_yuexin.pdf">CV</a> &nbsp/&nbsp
+                <a href="https://scholar.google.com/citations?user=1ii3f54AAAAJ&hl=zh-CN&authuser=1">Google Scholar</a> &nbsp/&nbsp
+                <a href="https://github.com/alwaysbyx">Github</a>&nbsp/&nbsp
+                <a href="https://www.linkedin.com/in/yuexin-bian-516222202/">LinkedIn</a> 
+                <!-- <a href="https://twitter.com/AkankshaSaran">Twitter</a>  -->
+                
+              </p>
+            </td>
+            <td style="padding:2.5%;width:40%;max-width:40%">
+              <a class="profile-photo-link" href="images/yuexin.png"><img alt="profile photo" src="images/yuexin.png" class="hoverZoomLink"></a>
+            </td>
+          </tr>
+        </tbody></table>
 
 
-            <div id="sidebar" class="menu sticky is-hidden-mobile">
-              <p class="menu-label"><b>Quick Links</b></p>
-              <ul class="menu-list">
-                <!-- <li><a href="#news">News</a></li> -->
-                <li><a href="#bio">Bio</a></li>
-                <li><a href="#research">Research</a></li>
-                <li><a href="#work">Work Experience</a></li>
-              </ul>
-            </div>
-          </div>
+        <hr class="container"/>
 
-
-
-        </div>
-        <div class="column">
-          <div class="content">
-            <!-- News
-            <h3 id="news">
-              News
-            </h3>
+        <table class="container" width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
+          <tr><td>
+            <heading>&nbsp;&nbsp;News</heading>
             <ul>
-              <li><span>July, 2021 - Two paper get accepted to ICCV2021.</span></li>
-              <li><span>Apr, 2021 - Our ICCV2021 Workshop Call-for-paper: <a href="https://geometry.stanford.edu/struco3d/" target="_blank">StruCo3D2021: Structural and Compositional Learning on 3D Data.</a> </span></li>
-              <li><span>Feb, 2021 - One paper gets accepted to TVCG.</span></li>
-              <li><span>Apr, 2020 - One paper gets accepted to TPAMI.</span></li>
-              <li><span>July, 2019 - One paper gets accepted to ICCV2019 (oral).</span></li>
-              <li><span>Jun, 2019 - Has successfully defended my Ph.D. thesis!</span></li>
-            </ul> -->
-
-            
-            <h1>Yuexin Bian's Homepage</h1>
-
-            <!--BIO-->
-            <h3 id="bio">Bio</h3>
-            <p>I am Yuexin Bian, a first-year Ph.D. student at UC San Diego, advised by Prof. <a href="https://yyshi.eng.ucsd.edu/" target="_blank" style="text-decoration: underline;">Yuanyuan Shi</a>. 
-              Prior to joining UCSD, I received my bachelor degree from Zhejiang University in 2021.<br>
-              <br>
-              My research interest includes machine learning, optimization to control, and signal processing. I have persistent curiosity in solving real-world problems and am always open to novel ideas, methods, and techniques.</p>
-          
-
-            <!--Research-->
-            <h3 id="research">Research</h3>
-            <h4>2021</h4>
-
-            <article class="columns">
-              <div class="column is-4">
-                <figure class="image">
-                  <img src="https://alwaysbyx.github.io/images/research/ecg.png">
-                </figure>
-              </div>
-              <div class="column">
-                <div class="content">
-                  <p>
-                    <b style="color:midnightblue">Identifying Electrocardiogram Abnormalities Using
-                      a Handcrafted-Rule-Enhanced Neural Network</b>
-                    <br>
-                    <b>Yuexin Bian</b>, Jintai Chen, Xiaojun Chen, Xiaoxian Yang, Danny Z. Chen, Jian Wu.<br>
-                    IEEE Transactions on Computational Biology and Bioinformatics (TCBB), 2021<br>
-                     <a href="https://github.com/alwaysbyx/ecg_processing" target="_blank">[<u>project (code)</u>]</a>
-                     <a href="https://ieeexplore.ieee.org/abstract/document/9672735?casa_token=nMzoCgIg9uYAAAAA:QN6t_PcwUSwFLjRd-tckTYv8kuTatBeGxz6tolG-dIR_AzanVesvO2z_xASbs2XF9wLuNOIAgA" target="_blank">[<u>paper</u>]</a>
-                    <!-- <a href="https://arxiv.org/abs/2107.14230" target="_blank">[<u>paper</u>]</a>
-                    <a href="https://github.com/pleaseconnectwifi/PNAL" target="_blank">[<u>code</u>]</a> -->
-                    <br>
-                    We proposed a Handcrafted-Rule-enhanced Neural Network for ECG classification, which 
-                    consists of a rule inference module and a deep learning module.
-                  </p>
-                </div>
-              </div>
-            </article>
-
-            <h4>2020</h4>
-            <article class="columns">
-              <div class="column is-4">
-                <figure class="image">
-                  <img src="https://alwaysbyx.github.io/images/research/anomaly_detection.png">
-                </figure>
-              </div>
-              <div class="column">
-                <div class="content">
-                  <p>
-                    <b style="color:midnightblue">Real-time anomaly detection from traffic sensor network data</b>
-                    <br>
-                    Yuexin Bian, Peibin Gong, Minghe Zhang, Yao Xie.
-                    <br>
-                     <a href="https://github.com/alwaysbyx/ATD2020Solution" target="_blank">[<u>slides</u>]</a>
-                    <!-- <a href="https://arxiv.org/abs/2107.14230" target="_blank">[<u>paper</u>]</a>
-                    <a href="https://github.com/pleaseconnectwifi/PNAL" target="_blank">[<u>code</u>]</a> -->
-                    <br>
-                    Proposed a novel Unsupervised Spatio-temporal Imputation Method for anomaly detection when the data 
-                    missing pattern is extremely serious (sample rates are only 1%, 2%, 5%, 10%, 20%). Second place among teams 
-                    from many universities across the US (ATD2020).
-                  </p>
-                </div>
-              </div>
-            </article>
-
-
-            <!--Work-->
-            <h3 id="work">Work Experience</h3>
-
-            <article class="columns">
-              <div class="column is-3">
-                <figure class="image">
-                  <img src="https://alwaysbyx.github.io/images/work/realdoctor.png">
-                </figure>
-              </div>
-              <div class="column">
-                <div class="content">
-                  <p>
-                    <b style="color:midnightblue">Research Intern, RealDoctor</b>
-                    <br>
-                    03/01/2021 - 06/30/2021
-                    <br>
-                    Mentor: Junxiao Chen, Jintai Chen
-                  
-                  </p>
-                </div>
-              </div>
-            </article>
-            
-            <article class="columns">
-              <div class="column is-3">
-                <figure class="image">
-                  <img src="https://alwaysbyx.github.io/images/work/hbs.png">
-                </figure>
-              </div>
-              <div class="column">
-                <div class="content">
-                  <p>
-                    <b style="color:midnightblue">Research Intern, Harvard Business School, Marketing Group</b>
-                    <br>
-                    Project on influencers’ reputation mechanism, 09/2020 - 12/2020
-                    <br>
-                    Mentor: <a href="https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1239916" target="_blank" style="text-decoration: underline;">Magie Cheng</a>
-                  
-                  </p>
-                </div>
-              </div>
-            </article>
-
-            <article class="columns">
-              <div class="column is-3">
-                <figure class="image">
-                  <img src="https://alwaysbyx.github.io/images/work/gt.png">
-                </figure>
-              </div>
-              <div class="column">
-                <div class="content">
-                  <p>
-                    <b style="color:midnightblue">Summer Research Intern, Georgia Institute of Technology</b>
-                    <br>
-                    08/05/2020 - 10/05/2020
-                    <br>
-                    Mentor: <a href="https://www2.isye.gatech.edu/~yxie77/" target="_blank" style="text-decoration: underline;">Yao Xie</a>
-                  
-                  </p>
-                </div>
-              </div>
-            </article>
+            <!--<li> Feb 2022: New preprint available on <a href="https://arxiv.org/abs/2202.03481">A Ranking Game for Imitation Learning</a>.</li> -->
+            <li> Invited talk at <a href="https://www.informs.org/Meetings-Conferences/INFORMS-Conference-Calendar/2022-INFORMS-Annual-Meeting">2022 INFORMS Annual Meeting</a>.</li> 
+            <!--<<li> Presented our work on <a href="https://arxiv.org/abs/2002.12500">Efficiently Guiding Imitation Learning Agents with Human Gaze</a> during the Humans and AI session at <a href="https://aamas2021.soton.ac.uk/">AAMAS 2021</a>.</li>-->
+            <!--<li> Invited talk at the <a href="https://sites.google.com/view/realworldhri-workshop/hri21/speakers-schedules?authuser=0">Workshop on Solutions for Socially Intelligent HRI in Real-World Scenarios</a> at <a href="https://humanrobotinteraction.org/2021/">HRI 2021</a>.</li>-->
+            <!--<li> I served as a Program Chair for the <a href="http://www.hripioneers.info/hri21/program_speakers.html">HRI Pioneers workshop</a> at <a href="https://humanrobotinteraction.org/2021/">HRI 2021</a>.</li>-->
 
           </div>
-        </div>
-      </div>
-    </div>
-  </section>
+            </ul>
+          </td></tr>
+        </table>
 
-  <script>
-    var elm = document.querySelector('#sidebar');
-    var ms = new MenuSpy(elm, {
-      activeClass: 'is-active'
-    });
-  </script>
+
+        <hr class="container-wide"/>
+
+        <table class="container" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>Research</heading>
+
+            </td>
+          </tr>
+        </tbody></table>
+        <style>
+
+
+.research-table {
+  overflow: hidden;
+}
+        /* image style format*/  
+        .research-table img {
+          display: block;
+          max-width: 100%;
+          height: auto;
+          margin: 0 auto;  /*center align*/
+          /* margin-left: auto; */ /*right align*/
+        }
+
+        @media (max-width: 500px) {
+       .research-table tr {
+          display: flex;
+          flex-direction: column;
+          width: calc(100vw - 16px);
+          min-width: 100%;
+          flex-grow: 1;
+          height: 100%;
+          overflow: hidden;
+          padding-bottom: 20px;
+          margin-bottom: 20px;
+          border-bottom: 1px solid #e1e1e1;
+         }
+
+         .research-table td {
+           width: 100% !important;
+           padding: 5px !important;
+         }
+       }
+        </style>
+        <table class="research-table container-wide"  style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+          
+          <tr>
+            <!--Update the width:30% and width:70% for text and images to the required proportions-->
+            <td style="padding:20px;width:10%;vertical-align:top">
+              <a href="images/ai-igl2.png">  <img src="images/ai-igl2.png"></a></td>
+              <td style="padding:20px;width:70%;vertical-align:top">
+              <p><a href="https://arxiv.org/abs/2206.08364" id="ai-igl-arxiv22">
+              <papertitle>Interaction Grounded Learning with Action-Inclusive Feedback</papertitle></a><br>
+              Tengyang Xie<sup>*</sup>, <b>Akanksha Saran</b><sup>*</sup>, Dylan Foster, Lekan Molu, Ida Momennejad, Nan Jiang, Paul Mineiro, John Langford
+              <br>Short version: Workshop on Complex Feedback for Online Learning, ICML 2022
+              </p>
+        
+              <div class="paper" id="ai-igl-arxiv22">
+              <a href="https://arxiv.org/pdf/2206.08364.pdf">pdf</a> |
+              <a href="javascript:toggleblock('ai-igl-arxiv22-abstract')">abstract</a> |
+              <a shape="rect" href="javascript:toggleblock('ai-igl-arxiv22-bibtex')" class="togglebib">bibtex</a> 
+              
+              <p align="justify"> <i id="ai-igl-arxiv22-abstract" class="hidden">Consider the problem setting of Interaction-Grounded Learning 
+                (IGL), in which a learner's goal is to optimally interact with the environment with no explicit reward to ground its policies. 
+                The agent observes a context vector, takes an action, and receives a feedback vector, using this information to effectively 
+                optimize a policy with respect to a latent reward function. Prior analyzed approaches fail when the feedback vector contains 
+                the action, which significantly limits IGL&#39;s success in many potential scenarios such as Brain-computer interface (BCI) 
+                or Human-computer interface (HCI) applications. We address this by creating an algorithm and analysis which allows IGL to 
+                work even when the feedback vector contains the action, encoded in any fashion. We provide theoretical guarantees and 
+                large-scale experiments based on supervised datasets to demonstrate the effectiveness of the new approach. </i></p>
+        
+                <pre xml:space="preserve" id="ai-igl-arxiv22-bibtex" class="hidden">
+@article{xie2022interaction,
+  title={Interaction Grounded Learning with Action-Inclusive Feedback},
+  author={Xie, Tengyang and Saran, Akanksha and Foster, Dylan and <br>&emsp;&emsp;Molu, Lekan and Momennejad, Ida and Jiang, Nan <br>&emsp;&emsp;and Mineiro, Paul and Langford, John},
+  booktitle={Proceedings of the ICML Workshop on <br>&emsp;&emsp;Complex Feedback for Online Learning},
+  year={2022}
+}
+                </pre>
+              </div>
+              <p>An algorithm (AI-IGL) that learns to interpret signals from a controller in an interactive loop without any formal calibration of signal to control
+              --- leveraging implicit feedback which can include the action information, but no explicit rewards are available.</p>
+            </td>
+          </tr> 
+
+          <tr>
+            <!--Update the width:30% and width:70% for text and images to the required proportions-->
+            <td style="padding:20px;width:30%;vertical-align:top">
+              <a href="images/rank-game.png">  <img src="images/rank-game.png"></a></td>
+              <td style="padding:20px;width:70%;vertical-align:top">
+              <p><a href="https://arxiv.org/abs/2202.03481" id="rank-game-arxiv22">
+              <papertitle>A Ranking Game for Imitation Learning</papertitle></a><br>
+              Harshit Sikchi, <b>Akanksha Saran</b>, Wonjoon Goo, Scott Niekum
+              <br>arXiv 2022
+              </p>
+        
+              <div class="paper" id="rank-game-arxiv22">
+              <a href="https://arxiv.org/pdf/2202.03481.pdf">pdf</a> |
+              <a href="javascript:toggleblock('rank-game-arxiv22-abstract')">abstract</a> |
+              <a shape="rect" href="javascript:toggleblock('rank-game-arxiv22-bibtex')" class="togglebib">bibtex</a> 
+              
+              <p align="justify"> <i id="rank-game-arxiv22-abstract" class="hidden">We propose a new framework for imitation learning — treating imitation as a two-player rankingbased Stackelberg game between a policy and a
+                reward function. In this game, the reward agent
+                learns to satisfy pairwise performance rankings
+                within a set of policies, while the policy agent
+                learns to maximize this reward. This game encompasses a large subset of both inverse reinforcement learning (IRL) methods and methods
+                which learn from offline preferences. The Stackelberg game formulation allows us to use optimization methods that take the game structure into
+                account, leading to more sample efficient and stable learning dynamics compared to existing IRL
+                methods. We theoretically analyze the requirements of the loss function used for ranking policy
+                performances to facilitate near-optimal imitation
+                learning at equilibrium. We use insights from this
+                analysis to further increase sample efficiency of
+                the ranking game by using automatically generated rankings or with offline annotated rankings.
+                Our experiments show that the proposed method
+                achieves state-of-the-art sample efficiency and is
+                able to solve previously unsolvable tasks in the
+                Learning from Observation (LfO) setting. </i></p>
+        
+                <pre xml:space="preserve" id="rank-game-arxiv22-bibtex" class="hidden">
+@article{sikchi2022ranking,
+  title={A Ranking Game for Imitation Learning},
+  author={Sikchi, Harshit and Saran, Akanksha and Goo,<br>&emsp;&emsp;Wonjoon and Niekum, Scott},
+  journal={arXiv preprint arXiv:2202.03481},
+  year={2022}
+}
+                </pre>
+              </div>
+              <p>Treating imitation learning as a two-player ranking game between a policy and a reward function can solve previously unsolvable tasks in the Learning from Observation (LfO) setting.</p>
+            </td>
+          </tr>   
+  
+
+
+          <tr>
+            <td style="padding:20px;width:30%;vertical-align:middle">
+              <a href="images/aux_airl.png">  <img src="images/aux_airl.png"></a></td>
+              <td style="padding:20px;width:70%;vertical-align:top">
+              <p><a href="papers/aux_airl.pdf" id="icmlw21">
+                <papertitle>Aux-AIRL: End-to-End Self-Supervised Reward Learning for Extrapolating beyond Suboptimal Demonstrations</papertitle></a><br>
+                Yuchen Cui, Bo Liu, <b>Akanksha Saran</b>, Stephen Giguere, Peter Stone, Scott Niekum<br>
+                Short version: Workshop on Self-Supervised Learning for Reasoning <br>and Perception, ICML 2021
+              </p>
+        
+              <div class="paper" id="icmlw21">
+              <a href="papers/aux_airl.pdf">pdf</a> |
+              <a href="javascript:toggleblock('icmlw21-abstract')">abstract</a> |
+              <a shape="rect" href="javascript:toggleblock('icmlw21-bibtex')" class="togglebib">bibtex</a> |
+              <a href="https://drive.google.com/file/d/1mzCN9X3g4zB6icu_TOc8qKxZHwNTvvEx/view?usp=sharing">poster</a>
+              
+              <p align="justify"> <i id="icmlw21-abstract" class="hidden">Real-world human demonstrations are often suboptimal. How to extrapolate beyond suboptimal
+                demonstration is an important open research question. In this ongoing work, we analyze the success
+                of a previous state-of-the-art self-supervised reward learning method that requires four sequential
+                optimization steps, and propose a simple end-toend imitation learning method Aux-ARIL that extrapolates from suboptimal demonstrations without requiring multiple optimization steps. </i></p>
+        
+                <pre xml:space="preserve" id="icmlw21-bibtex" class="hidden">
+@inproceedings{cui2021airl,
+  title={Aux-AIRL: End-to-End Self-Supervised Reward Learning<br>&emsp;&emsp;for Extrapolating beyond Suboptimal Demonstrations},
+  author={Cui, Yuchen and Liu, Bo and Saran, Akanksha and <br>&emsp;&emsp;Giguere, Stephen and Stone, Peter and Niekum, Scott},
+  booktitle={Proceedings of the ICML Workshop on <br>&emsp;&emsp;Self-Supervised Learning for Reasoning and Perception},
+  year={2021}
+}
+                </pre>
+              </div>
+              <p>An end-to-end self-supervised reward learning method that extrapolates beyond suboptimal demonstrations.</p>
+            </td>
+          </tr>   
+
+
+         
+
+          <tr>
+            <td style="padding:20px;width:30%;vertical-align:top">
+           <a href="images/cgl2.png"> <img src="images/cgl2.png"></a></td>
+              <td style="padding:20px;width:70%;vertical-align:top">
+              <p><a href="https://arxiv.org/abs/2002.12500" id="AAMAS21">
+              <papertitle>Efficiently Guiding Imitation Learning Agents with Human Gaze</papertitle></a><br>
+              <b>Akanksha Saran</b>, Ruohan Zhang, Elaine Schaertl Short, Scott Niekum<br>
+              Short version: Workshop on Reinforcement Learning in Games, AAAI 2020
+              <br>Full version: AAMAS 2021
+              </p>
+        
+              <div class="paper" id="aamas21">
+              <a href="https://arxiv.org/pdf/2002.12500.pdf">pdf</a> |
+              <a href="javascript:toggleblock('aamas21-abstract')">abstract</a> |
+              <a shape="rect" href="javascript:toggleblock('aamas21-bibtex')" class="togglebib">bibtex</a> |
+              <a href="https://github.com/asaran/IL-CGL">code</a> |
+              <a href="https://drive.google.com/file/d/1bvfnkqFGF8O39yaF1QOcvhrOx2CpZyxX/view?usp=sharing">slides</a> |
+              <a href="https://drive.google.com/file/d/1tMnPpqOTG7Jxy34ARQVjAJtSArqLTRw6/view?usp=sharing">spotlight</a> |
+              <!-- <a href="https://drive.google.com/file/d/1tq07PhWvUAN1-GyGlPh-j9QBGT_gg2tr/view?usp=sharing">demo video</a> | -->
+              <a href="https://techxplore.com/news/2020-03-imitation-algorithms-human.html">media</a>
+             
+              <p align="justify"> <i id="aamas21-abstract" class="hidden">Human gaze is known to be an intention-revealing signal in human demonstrations of tasks. In this work, we use gaze cues from human demonstrators to enhance the performance of agents trained via three popular imitation learning methods -- behavioral cloning (BC), behavioral cloning from observation (BCO), and Trajectory-ranked Reward EXtrapolation (T-REX). Based on similarities between the attention of reinforcement learning agents and human gaze, we propose a novel approach for utilizing gaze data in a computationally efficient manner, as part of an auxiliary loss function, which guides a network to have higher activations in image regions where the human's gaze fixated. This work is a step towards augmenting any existing convolutional imitation learning agent's training with auxiliary gaze data. Our auxiliary coverage-based gaze loss (CGL) guides learning toward a better reward function or policy, without adding any additional learnable parameters and without requiring gaze data at test time. We find that our proposed approach improves the performance by 95% for BC, 343% for BCO, and 390% for T-REX, averaged over 20 different Atari games. We also find that compared to a prior state-of-the-art imitation learning method assisted by human gaze (AGIL), our method achieves better performance, and is more efficient in terms of learning with fewer demonstrations. We further interpret trained CGL agents with a saliency map visualization method to explain their performance. At last, we show that CGL can help alleviate a well-known causal confusion problem in imitation learning.</i></p>
+        
+                <pre xml:space="preserve" id="aamas21-bibtex" class="hidden">
+@article{saran2020efficiently,
+  title={Efficiently Guiding Imitation Learning Agents with Human Gaze},
+  author={Saran, Akanksha and Zhang, Ruohan and Short, Elaine Schaertl<br>&emsp;&emsp;and Niekum, Scott},
+  journal={International Conference on Autonomous Agents and Multiagent<br>&emsp;&emsp;Systems},
+  year={2021}
+}
+                </pre>
+              </div>
+              <!-- <p>Human demonstrators' gaze used as a cue to inform which visual elements of the scene are important for decision-making.</p> -->
+              <p>Human demonstrators' overt visual attention can be used as a supervisory signal to guide imitation learning agents during training, such that they <i>at least</i> attend to visual features considered important by the demonstrator.</p>
+            </td>
+          </tr> 
+
+
+
+
+          <tr>
+            <td style="padding:20px;width:30%;vertical-align:top">
+              <a href="images/survey2.png">  <img src="images/survey2.png"></a></td>
+              <td style="padding:20px;width:70%;vertical-align:top">
+              <p><a href="https://www.ijcai.org/Proceedings/2020/0689.pdf" id="IJCAI20">
+              <papertitle>Human Gaze Assisted Artificial Intelligence: A Review</papertitle></a><br>
+              Ruohan Zhang, <b>Akanksha Saran</b>, Bo Liu, Yifeng Zhu, Sihang Guo, Scott Niekum, Dana H. Ballard, <br>Mary M. Hayhoe<br>
+              IJCAI 2020
+              </p>
+        
+              <div class="paper" id="ijcai20">
+              <a href="https://www.ijcai.org/Proceedings/2020/0689.pdf">pdf</a> |
+              <a href="javascript:toggleblock('ijcai20-abstract')">abstract</a> |
+              <a shape="rect" href="javascript:toggleblock('ijcai20-bibtex')" class="togglebib">bibtex</a> 
+              
+              <p align="justify"> <i id="ijcai20-abstract" class="hidden">Human gaze reveals a wealth of information about
+                internal cognitive state. Thus, gaze-related research
+                has significantly increased in computer vision, natural language processing, decision learning, and
+                robotics in recent years. We provide a high-level
+                overview of the research efforts in these fields, including collecting human gaze data sets, modeling gaze behaviors, and utilizing gaze information
+                in various applications, with the goal of enhancing communication between these research areas.
+                We discuss future challenges and potential applications that work towards a common goal of humancentered artificial intelligence.</i></p>
+        
+                <pre xml:space="preserve" id="ijcai20-bibtex" class="hidden">
+@inproceedings{zhang2020human,
+  title={Human gaze assisted artificial intelligence: A review},
+  author={Zhang, Ruohan and Saran, Akanksha and Liu, Bo and Zhu, <br>&emsp;&emsp;Yifeng and Guo, Sihang and Niekum, Scott and Ballard,<br>&emsp;&emsp;Dana and Hayhoe, Mary},
+  booktitle={IJCAI: Proceedings of the Conference},
+  volume={2020},
+  pages={4951},
+  year={2020},
+  organization={NIH Public Access}
+}
+                </pre>
+              </div>
+              <p>A survey paper summarizing gaze-related research in computer vision, natural language processing, decision learning, and
+                robotics in recent years.</p>
+            </td>
+          </tr> 
+
+
+
+
+          <tr>
+            <td style="padding:20px;width:30%;vertical-align:top">
+              <a href="images/gaze2a.png"> <img src="images/gaze2a.png"></a></td>
+              <td style="padding:20px;width:70%;vertical-align:top">
+              <p><a href="https://arxiv.org/abs/1907.07202v4" id="CoRL19">
+              <papertitle>Understanding Teacher Gaze Patterns for Robot Learning</papertitle></a><br>
+              <b>Akanksha Saran</b>, Elaine Schaertl Short, Andrea Thomaz, Scott Niekum
+              <br>Short version: HRI Pioneers 2019
+              <br>Full version: CoRL 2019
+              </p>
+        
+              <div class="paper" id="corl19">
+              <a href="https://arxiv.org/pdf/1907.07202v4.pdf">pdf</a> |
+              <a href="javascript:toggleblock('corl19-abstract')">abstract</a> |
+              <a shape="rect" href="javascript:toggleblock('corl19-bibtex')" class="togglebib">bibtex</a> |
+              <a href="https://github.com/asaran/gaze-LfD">code</a> |
+              <a href="https://docs.google.com/presentation/d/1UG1iaLKOIfBkvDsjFbHnpo-gOR6LeFdW/edit?usp=sharing&ouid=108019005608041300274&rtpof=true&sd=true">slides</a> |
+              <a href="posters/corl2019_poster.pdf">poster</a> |
+              <a href="https://youtu.be/b7StSnt85S4?t=12240">talk video</a> |
+              <a href="https://www.youtube.com/watch?v=FiCJRD-YluQ">demo video</a>
+              
+              <p align="justify"> <i id="corl19-abstract" class="hidden">Human gaze is known to be a strong indicator of underlying human intentions and goals during manipulation tasks. This work studies gaze patterns of human teachers demonstrating tasks to robots and proposes ways in which such patterns can be used to enhance robot learning. Using both kinesthetic teaching and video demonstrations, we identify novel intention-revealing gaze behaviors during teaching. These prove to be informative in a variety of problems ranging from reference frame inference to segmentation of multi-step tasks. Based on our findings, we propose two proof-of-concept algorithms which show that gaze data can enhance subtask classification for a multi-step task up to 6% and reward inference and policy learning for a single-step task up to 67%. Our findings provide a foundation for a model of natural human gaze in robot learning from demonstration settings and present open problems for utilizing human gaze to enhance robot learning.</i></p>
+        
+                <pre xml:space="preserve" id="corl19-bibtex" class="hidden">
+@inproceedings{saran2020understanding,
+  title={Understanding teacher gaze patterns for robot learning},
+  author={Saran, Akanksha and Short, Elaine Schaertl and<br>&emsp;&emsp;Thomaz, Andrea and Niekum, Scott},
+  booktitle={Conference on Robot Learning},
+  pages={1247--1258},
+  year={2020},
+  organization={PMLR}
+}
+                </pre>
+              </div>
+              <!-- <p>Human teachers demonstrating goal-oriented manipulation tasks to robots fixate more of their eye gaze movements on objects important for the manipulation in comparison to other objects in the scene. Incorporating this finding during subtask classification and bayesian inverse reinforcement learning improves performance of these learning algorithms.</p> -->
+              <p>Incorporating eye gaze information of human teachers demonstrating goal-oriented manipulation tasks to robots improves perfomance of subtask classification and bayesian inverse reinforcement learning.</p>
+            </td>
+          </tr> 
+
+
+
+
+          <tr>
+            <td style="padding:20px;width:30%;vertical-align:top"> <!--Change to vertical-align:middle -->
+              <a href="images/gaze_follow.png"> <img src="images/gaze_follow.png"></a></td>
+              <td style="padding:20px;width:70%;vertical-align:top">
+              <p><a href="papers/iros2018.pdf" id="ICRA21">
+              <papertitle>Human Gaze Following for Human-Robot Interaction</papertitle></a><br>
+              <b>Akanksha Saran</b>, Srinjoy Majumdar, Elaine Schaertl Short, Andrea Thomaz, Scott Niekum
+              <br>Short version: Workshop on Social Robots in the Wild, HRI 2018
+              <br>Full version: IROS 2018
+              </p>
+        
+              <div class="paper" id="icra21">
+              <a href="papers/iros2018.pdf">pdf</a> |
+              <a href="javascript:toggleblock('iros18-abstract')">abstract</a> |
+              <a shape="rect" href="javascript:toggleblock('iros18-bibtex')" class="togglebib">bibtex</a> |
+              <a href="https://github.com/Pearl-UTexas/gaze_tracker">code</a> |
+              <a href="https://drive.google.com/file/d/1U6cEqJhFFj5Yq31o8LfOeibX-N8TRQug/view">talk video</a> |
+              <a href="https://www.youtube.com/watch?v=zTZSpEcpW_A">demo video</a>
+              
+              <p align="justify"> <i id="iros18-abstract" class="hidden">Gaze provides subtle informative cues to aid fluent
+                interactions among people. Incorporating human gaze predictions can signify how engaged a person is while interacting with a robot and allow the robot to predict a human's intentions or goals. We propose a novel approach to predict human gaze fixations relevant for human-robot interaction tasks—
+                both referential and mutual gaze—in real time on a robot. We use a deep learning approach which tracks a human's
+                gaze from a robot's perspective in real time. The approach builds on prior work which uses a deep network to predict the referential gaze of a person from a single 2D image. Our work uses an interpretable part of the network, a gaze heat map, and incorporates contextual task knowledge such as location of
+                relevant objects, to predict referential gaze. We find that the gaze heat map statistics also capture differences between mutual and referential gaze conditions, which we use to predict whether
+                a person is facing the robot's camera or not. We highlight the challenges of following a person's gaze on a robot in real time and show improved performance for referential gaze and mutual gaze prediction.</i></p>
+                
+                  <pre class="hidden" id="iros18-bibtex" xml:space="preserve">
+@inproceedings{saran2018human,
+  title={Human gaze following for human-robot interaction},
+  author={Saran, Akanksha and Majumdar, Srinjoy and<br>&emsp;&emsp;Short, Elaine Schaertl and Thomaz, Andrea and Niekum, Scott},
+  booktitle={2018 IEEE/RSJ International Conference on<br>&emsp;&emsp;Intelligent Robots and Systems (IROS)},
+  pages={8615--8621},
+  year={2018},
+  organization={IEEE}
+}
+                  </pre>
+              </div>
+              <p>An approach to predict human gaze fixations relevant for human-robot interaction tasks in real time from a robot's 2D camera view.</p>
+            </td>
+          </tr> 
+
+
+
+
+          <tr>
+            <td style="padding:20px;width:30%;vertical-align:top">
+              <a href="images/viewpoint2.png"> <img src="images/viewpoint2.png"></a></td>
+              <td style="padding:20px;width:70%;vertical-align:top">
+              <p><a href="papers/iros2017.pdf" id="IROS17">
+              <papertitle>Viewpoint Selection for Visual Failure Detection</papertitle></a><br>
+              <b>Akanksha Saran</b>, Branka Lakic, Srinjoy Majumdar, Juergen Hess, Scott Niekum
+              <br>IROS 2017
+              </p>
+        
+              <div class="paper" id="iros17">
+              <a href="papers/iros2017.pdf">pdf</a> |
+              <a href="javascript:toggleblock('iros17-abstract')">abstract</a> |
+              <a shape="rect" href="javascript:toggleblock('iros17-bibtex')" class="togglebib">bibtex</a> |
+              <a href="https://drive.google.com/file/d/1xVbWqnp0fQGa6W7Jc8xPYReAZ2RTQV8P/view?usp=sharing">slides</a> |
+              <a href="https://drive.google.com/file/d/1ORHby7ivWtQdoI2lFLyocvLfFu-MMcHa/view?usp=sharing">spotlight</a>
+              
+              <p align="justify"> <i id="iros17-abstract" class="hidden">The visual difference between outcomes in many
+                robotics tasks is often subtle, such as the tip of a screw
+                being near a hole versus in the hole. Furthermore, these small
+                differences are often only observable from certain viewpoints or
+                may even require information from multiple viewpoints to fully
+                verify. We introduce and compare three approaches to selecting
+                viewpoints for verifying successful execution of tasks: (1) a
+                random forest-based method that discovers highly informative
+                fine-grained visual features, (2) SVM models trained on features
+                extracted from pre-trained convolutional neural networks, and
+                (3) an active, hybrid approach that uses the above methods for
+                two-stage multi-viewpoint classification. These approaches are
+                experimentally validated on an IKEA furniture assembly task
+                and a quadrotor surveillance domain.</i></p>
+        
+                <pre xml:space="preserve" id="iros17-bibtex" class="hidden">
+@inproceedings{saran2017viewpoint,
+  title={Viewpoint selection for visual failure detection},
+  author={Saran, Akanksha and Lakic, Branka and Majumdar, Srinjoy<br>&emsp;&emsp;and Hess, Juergen and Niekum, Scott},
+  booktitle={2017 IEEE/RSJ International Conference on<br>&emsp;&emsp;Intelligent Robots and Systems (IROS)},
+  pages={5437--5444},
+  year={2017},
+  organization={IEEE}
+}
+                </pre>
+              </div>
+              <p>An approach to select a viewpoint (from a set of fixed viewpoints) to visually verify fine-grained task outcomes post robot task executions.</p>
+            </td>
+          </tr> 
+
+         
+          <tr>
+            <td style="padding:20px;width:30%;vertical-align:top">
+              <a href="images/hands.jpeg">  <img src="images/hands.jpeg"></a></td>
+              <td style="padding:20px;width:70%;vertical-align:top">
+              <p><a href="papers/iros2015.pdf" id="IROS15">
+              <papertitle>Hand Parsing for Fine-Grained Recognition of Human Grasps in Monocular Images</papertitle></a><br>
+              <b>Akanksha Saran</b>, Damien Teney, Kris Kitani
+              <br>IROS 2015
+              </p>
+        
+              <div class="paper" id="iros15">
+              <a href="papers/iros2015.pdf">pdf</a> |
+              <a href="javascript:toggleblock('iros15-abstract')">abstract</a> |
+              <a shape="rect" href="javascript:toggleblock('iros15-bibtex')" class="togglebib">bibtex</a> 
+              
+              <p align="justify"> <i id="iros15-abstract" class="hidden">We propose a novel method for performing fine-grained recognition of human hand grasp types using a single
+                monocular image to allow computational systems to better
+                understand human hand use. In particular, we focus on
+                recognizing challenging grasp categories which differ only by
+                subtle variations in finger configurations. While much of the
+                prior work on understanding human hand grasps has been
+                based on manual detection of grasps in video, this is the first
+                work to automate the analysis process for fine-grained grasp
+                classification. Instead of attempting to utilize a parametric
+                model of the hand, we propose a hand parsing framework
+                which leverages a data-driven learning to generate a pixelwise segmentation of a hand into finger and palm regions. The
+                proposed approach makes use of appearance-based cues such
+                as finger texture and hand shape to accurately determine hand
+                parts. We then build on the hand parsing result to compute
+                high-level grasp features to learn a supervised fine-grained
+                grasp classifier. To validate our approach, we introduce a grasp
+                dataset recorded with a wearable camera, where the hand
+                and its parts have been manually segmented with pixel-wise
+                accuracy. Our results show that our proposed automatic hand
+                parsing technique can improve grasp classification accuracy
+                by over 30 percentage points over a state-of-the-art grasp
+                recognition technique. </i></p>
+        
+                <pre xml:space="preserve" id="iros15-bibtex" class="hidden">
+@inproceedings{saran2015hand,
+  title={Hand parsing for fine-grained recognition of human grasps<br>&emsp;&emsp;in monocular images},
+  author={Saran, Akanksha and Teney, Damien and Kitani, Kris M},
+  booktitle={2015 IEEE/RSJ International Conference on<br>&emsp;&emsp;Intelligent Robots and Systems (IROS)},
+  pages={5052--5058},
+  year={2015},
+  organization={IEEE}
+}
+                </pre>
+              </div>
+              <p>A data-driven approach for fine-grained grasp classification.</p>
+            </td>
+          </tr>   
+
+
+        </tbody></table>
+
+        
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr>
+            <td style="padding:0px">
+              <br>
+              <p style="text-align:right;font-size:small;">
+                Modified version of template from <a style="font-size:small;" href="https://jonbarron.info/">this</a> and <a href="https://www.cs.cmu.edu/~dpathak/">this</a>.
+              </p>
+            </td>
+          </tr>
+        </tbody></table>
+      </td>
+    </tr>
+  </table>
 </body>
 
 </html>
