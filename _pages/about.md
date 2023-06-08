@@ -6,7 +6,7 @@ description:
 
 profile:
   align: right
-  image: square_small.jpeg
+  image: yuexin.png
   address: 
 
 
@@ -18,9 +18,10 @@ social: false  # includes social icons at the bottom of the page
 
 ---
 
-## **Wanxin Jin** (靳万鑫)
+## **Yuexin Bian** (边玥心)
 
 <p style="margin-bottom:0.8cm; margin-left: 0.5cm"> </p>
+
 
 
 **Postdoctoral Researcher** in the [GRASP Lab](https://www.grasp.upenn.edu/){:target="_blank"}, [University of Pennsylvania](https://www.upenn.edu/){:target="_blank"}.
@@ -29,14 +30,14 @@ social: false  # includes social icons at the bottom of the page
 I obtained my Ph.D. from the [School of Aeronautics and Astronautics](https://engineering.purdue.edu/AAE){:target="_blank"}, [Purdue University](https://www.purdue.edu/){:target="_blank"} in 2021. I was a research assistant at [Technical University of Munich](https://www.tum.de/en/){:target="_blank"}, Germany, 2016-2017. I obtained my Master's and Bachelor’s degrees in Control Science & Engineering from the Harbin Institute of Technology, China.
 
 
-**News:** 
+<!-- **News:** 
 Starting this fall 2023, I will be joining the <a href="https://engineering.asu.edu/">Ira A. Fulton Schools of Engineering</a> at Arizona State University as a tenure-track assistant professor.
 
 **News:** 
 This website will not be regularly maintained. Please visit the ASU lab website for more: [https://asu-iris.github.io/](https://asu-iris.github.io/)
 
 **News:** 
-<strong>Two Ph.D. positions are available in our lab! Please check <a href="https://asu-iris.github.io/joining/">Joining</a> for more details. The positions will commence as early as Spring 2024 and are fully funded (tuition + monthly salary). </strong>
+<strong>Two Ph.D. positions are available in our lab! Please check <a href="https://asu-iris.github.io/joining/">Joining</a> for more details. The positions will commence as early as Spring 2024 and are fully funded (tuition + monthly salary). </strong> -->
 
 
 
