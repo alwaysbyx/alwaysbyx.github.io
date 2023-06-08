@@ -24,10 +24,10 @@ social: false  # includes social icons at the bottom of the page
 
 
 
-**Postdoctoral Researcher** in the [GRASP Lab](https://www.grasp.upenn.edu/){:target="_blank"}, [University of Pennsylvania](https://www.upenn.edu/){:target="_blank"}.
+I am a first year PhD student in [ECE department](https://www.ece.ucsd.edu/){:target="_blank"} at [University of California San Diego](https://ucsd.edu/){:target="_blank"}, advised by [Prof. Yuanyuan Shi](https://yyshi.eng.ucsd.edu/){:target="_blank"}.
 
 
-I obtained my Ph.D. from the [School of Aeronautics and Astronautics](https://engineering.purdue.edu/AAE){:target="_blank"}, [Purdue University](https://www.purdue.edu/){:target="_blank"} in 2021. I was a research assistant at [Technical University of Munich](https://www.tum.de/en/){:target="_blank"}, Germany, 2016-2017. I obtained my Master's and Bachelor’s degrees in Control Science & Engineering from the Harbin Institute of Technology, China.
+My research interests broadly lie in optimization and control, with applications in power system. Before starting my graduate education at UC San Diego, I completed my undergraduate degree in Electrical Engineering from [Zhejiang University](https://www.zju.edu.cn/english/){:target="_blank"}, China.
 
 
 <!-- **News:** 
@@ -46,15 +46,15 @@ This website will not be regularly maintained. Please visit the ASU lab website 
 
 
 <center>
-    <a href = "mailto:wanxinjin@gmail.com" target="_blank"> 
+    <a href = "mailto:yubian@ucsd.edu" target="_blank"> 
     <img src="assets/img/platform_icon/email.gif" width="35" target="_blank"> </a>   &nbsp;&nbsp;&nbsp;
-<a href = "https://scholar.google.com/citations?user=SoEC4h4AAAAJ&hl=en" target="_blank"> 
+<a href = "https://scholar.google.com/citations?user=1ii3f54AAAAJ&hl=en" target="_blank"> 
     <img src="assets/img/platform_icon/scholar.png" width="35" target="_blank"></a>   &nbsp;&nbsp;&nbsp;
-<a href = "https://github.com/wanxinjin" target="_blank">
+<a href = "https://github.com/alwaysbyx" target="_blank">
     <img src="assets/img/platform_icon/github.gif" width="35" target="_blank"></a> &nbsp;&nbsp;&nbsp;
-<a href = "https://twitter.com/jinwanxin" target="_blank">
-    <img src="assets/img/platform_icon/twitter.gif" width="35" target="_blank"></a>  &nbsp;&nbsp;&nbsp;
-<a href = "https://www.youtube.com/channel/UCkMgzXIhi3BmWP7tAdeyoaA" target="_blank">
+<!-- <a href = "https://twitter.com/jinwanxin" target="_blank">
+    <img src="assets/img/platform_icon/twitter.gif" width="35" target="_blank"></a>  &nbsp;&nbsp;&nbsp; -->
+<a href = "https://space.bilibili.com/294684172?spm_id_from=333.337.0.0" target="_blank">
     <img src="assets/img/platform_icon/youtube.gif" width="35" target="_blank"></a>  &nbsp;&nbsp;&nbsp;
 
 </center>
@@ -68,14 +68,10 @@ This website will not be regularly maintained. Please visit the ASU lab website 
 -----
 #### **My Research**
 
-My research  focuses on developing <strong>interactive intelligence</strong>, which makes robots to
-- **seamlessly interact with humans**, by understanding human intent, assisting with human decision-making, improving
-its intelligence through human intuitive interactions, toward safe and personalized human-robot relationship; 
+My research  focuses on optimization and control, with applications in power system
+- **System operator side**, I focus on understanding demand response behavior. Identifying demand response model can facilitate power system operator to design new tariffs that align with the storage unit’s for-profit interests with certain system-level objectives and has potential in electric power mitigation;
 
-- **skillfully manipulating physical objects**, by learning and planning with physical representations, 
-touching and affecting objects with maximum dexterity while ensuring safety and controllability, toward human-level physical intelligence.
-
-I develop my solutions for interactive intelligence by combining a theoretical understanding of system fundamentals with empirical learning from readily accessible data. Our approaches are positioned at the intersection of control/optimization (model-based) and machine learning (data-driven), leveraging the complementary benefits of both.
+- **Flexible demand side**, I aim to develop efficient and intelligent charging strategies that optimize the utilization of grid resources while ensuring reliable and convenient charging for EV owners; also, I am interested to combine neural and control theory to conduct control with high efficiency and optimality. 
 
 
 <p style="margin-bottom:1.2cm; margin-left: 1.5cm"> </p>
@@ -90,7 +86,7 @@ I develop my solutions for interactive intelligence by combining a theoretical u
 <p style="margin-bottom:1.2cm; margin-left: 1.5cm"> </p>
 
 
-##### **1. Multi-contact (Dexterous) Manipulation**
+##### **1. Strategic Demand response Identification**
 ---
 
 <img src="collections/research/manipulation/moving_webpage2.gif"  width="140"  align="left" hspace="30" vspace=0 />

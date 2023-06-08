@@ -7,7 +7,7 @@ nav: true
 ---
 
 
-
+<!-- 
 #### **Teaching Award**
 
 <p style="margin-bottom:0.5cm; margin-left: 0.5cm"> </p>
@@ -15,18 +15,18 @@ nav: true
 <img src="/collections/teaching/teaching_award.png"  width="400"  align="center" hspace="0" vspace=0 /> <br/>
 *Magoon Award for Excellence in Teaching*, by the College of Engineering, Purdue University. 
 
-<p style="margin-bottom:1.5cm; margin-left: 0.5cm"> </p>
+<p style="margin-bottom:1.5cm; margin-left: 0.5cm"> </p> -->
 
-#### **Teaching at Purdue University**
+#### **Teaching at UCSD**
 <p style="margin-bottom:0.5cm; margin-left: 0.5cm"> </p>
 
 ---
-- <b>AAE 421: Flight Dynamics and Control</b>, Spring 2021  <br/>
- Role: teaching assistant and instructor for Simulink sessions <br/>
- Info: undergraduate course (∼ 100 students), Purdue University <br/>
+- <b>ECE 228: Machine learning for Physical Applications</b>, Spring 2023  <br/>
+ Role: teaching assistant and instructor for Lecture 10: OptNet <br/>
+ Info: graduate course (∼ 100 students), University of California, San Diego <br/>
 
 ---
-- <b>AAE 564: Linear Systems Analysis and Synthesis</b>,  Fall 2020   <br/>
+<!-- - <b>AAE 564: Linear Systems Analysis and Synthesis</b>,  Fall 2020   <br/>
 Role: teaching assistant<br/>
 Info: graduate course (∼ 40 students), Purdue University<br/>
 
@@ -81,4 +81,4 @@ Info: undergraduate course (∼ 30 students), Technical University of Munich <br
 
 
 
-
+ -->
