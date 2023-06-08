@@ -24,7 +24,7 @@ social: false  # includes social icons at the bottom of the page
 
 
 
-I am a first year PhD student in [ECE department](https://www.ece.ucsd.edu/){:target="_blank"} at [University of California San Diego](https://ucsd.edu/){:target="_blank"}, advised by [Prof. Yuanyuan Shi](https://yyshi.eng.ucsd.edu/){:target="_blank"}.
+I am a ~~first~~second year PhD student in [ECE department](https://www.ece.ucsd.edu/){:target="_blank"} at [University of California San Diego](https://ucsd.edu/){:target="_blank"}, advised by [Prof. Yuanyuan Shi](https://yyshi.eng.ucsd.edu/){:target="_blank"}.
 
 
 My research interests broadly lie in optimization and control, with applications in power system. Before starting my graduate education at UC San Diego, I completed my undergraduate degree in Electrical Engineering from [Zhejiang University](https://www.zju.edu.cn/english/){:target="_blank"}, China.
