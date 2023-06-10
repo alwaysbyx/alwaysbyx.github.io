@@ -10,9 +10,7 @@ nav: true
 
 #### Table of Contents
 
-- [Journals](#journals)
-- [Conferences](#conferences)
-- [Patents](#patents)
+- [**Journals**](#journals)
 
 
 <a name="journals"></a> 
@@ -27,7 +25,7 @@ nav: true
 
 
 ---
-1. **Task-Driven Hybrid Model Reduction for Dexterous Manipulation** <br />
+<!-- 1. **Task-Driven Hybrid Model Reduction for Dexterous Manipulation** <br />
 <b>Wanxin Jin</b> and Michael Posa<br />
 Submitted to *IEEE Transactions on Robotics (T-RO)*, conditionally accepted, 2023 <br />
 [[PDF]](https://arxiv.org/abs/2211.16657){:target="_blank"}/ 
@@ -248,4 +246,4 @@ Huijun Gao, <b>Wanxin Jin</b>, Jinyong Yu, Guanghui Sun, Xianqiang Yang, and Jun
 4.	  **Chip defect detection using co-occurrence matrix and RANSAC.** CN106373124B<br/>
 Huijun Gao, <b>Wanxin Jin</b>, Jinyong Yu, Xianqiang Yang, Weiyang Lin, and Zhan Li.
 
-<div style="text-align: right"> <a href="#top">Back to top</a> </div>
+<div style="text-align: right"> <a href="#top">Back to top</a> </div> -->

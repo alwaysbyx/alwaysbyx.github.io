@@ -91,32 +91,32 @@ My research  focuses on optimization and control, with applications in power sys
 
 <img src="collections/research/manipulation/moving_webpage2.gif"  width="140"  align="left" hspace="30" vspace=0 />
 
-**Task-Driven Hybrid Model Reduction for Dexterous Manipulation** <br />
-<b>Wanxin Jin</b> and Michael Posa<br />
-Submitted to *IEEE Transactions on Robotics (T-RO)*, conditionally accepted, 2023 <br />
-[[PDF]](https://arxiv.org/abs/2211.16657){:target="_blank"}/ 
-[[Code]](https://github.com/wanxinjin/Task-Driven-Hybrid-Reduction){:target="_blank"}/
-[[Video]](https://youtu.be/OvhTOQoagTM){:target="_blank"}/
-[[Webpage]](../td_hybridreduction){:target="_blank"}
+**Predicting Strategic Energy Storage Behaviors** <br />
+<b>Yuexin Bian</b>, Ningkun Zheng, Yang Zheng, Bolun Xu, Yuanyuan Shi<br />
+Submitted to *IEEE Transactions on Smart Grid*, 2023 <br />
+[PDF coming soon]/
+[[Code]](https://github.com/alwaysbyx/Predicting-Strategic-Energy-Storage-Behaviors){:target="_blank"}/
+<!-- [[Video]](https://youtu.be/OvhTOQoagTM){:target="_blank"}/ -->
+<!-- [[Webpage]](../td_hybridreduction){:target="_blank"} -->
 <p style="margin-bottom:1.0cm; margin-left: 1.5cm"> </p>
 
 ---
 <img src="collections/research/manipulation/cartpole_wall_crop.gif"  title="SafePDP" width="150"  align="left" hspace="25" vspace=0 />
-**Learning Linear Complementarity Systems** <br />
-<b>Wanxin Jin</b>, Alp Aydinoglu, Mathew Halm, and Michael Posa<br />
-*Learning for Dynamics and Control (L4DC)*, 2022 <br />
-[[PDF]](https://arxiv.org/abs/2112.13284){:target="_blank"} / 
-[[Code]](https://github.com/wanxinjin/Learning-LCS){:target="_blank"}
+**Demand response model identification and behavior forecast with OptNet: A gradient-based approach** <br />
+<b>Yuexin Bian</b>, Ningkun Zheng, Yang Zheng, Bolun Xu, Yuanyuan Shi<br />
+*Proceedings of the Thirteenth ACM International Conference on Future Energy Systems*, 2022 <br />
+[[PDF]](https://dl.acm.org/doi/abs/10.1145/3538637.3538871){:target="_blank"} / 
+[[Code]](https://github.com/alwaysbyx/e2e-DR-learning){:target="_blank"}
 
 
----
+<!-- ---
 <img src="collections/research/manipulation/ball_falling.png"  title="SafePDP" width="150"  align="left" hspace="25" vspace=0 />
 **Adaptive Barrier Smoothing for First-Order Policy Gradient with Contact Dynamics** <br />
  Shenao Zhang, <b>Wanxin Jin</b>, Zhaoran Wang<br />
 *International Conference on Machine Learning (ICML)*, 2023 <br />
 [PDF coming soon] / 
 [Code coming soon] / 
-[Video coming soon]
+[Video coming soon] -->
 
 
 

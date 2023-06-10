@@ -11,7 +11,7 @@ nav: true
 
 <p style="margin-bottom:0.5cm; margin-left: 0.5cm"> </p>
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=wanxinjin&show_icons=true&theme=moltack)](https://github.com/wanxinjin/)
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=wanxinjin&show_icons=true&theme=moltack)](https://github.com/alwaysbyx/)
 
 
 <p style="margin-bottom:2.0cm; margin-left: 0.5cm"> </p>

@@ -9,7 +9,7 @@ nav: true
 
 
 #### Table of Contents
-<p style="margin-bottom:0.5cm; margin-left: 1.5cm"> </p>
+<!-- <p style="margin-bottom:0.5cm; margin-left: 1.5cm"> </p>
 
 - [Task-Driven Hybrid Model Reduction for Dexterous Manipulation](#HybridReduction)
 - [Learning from Human Directional Corrections](#LFDC)
@@ -320,4 +320,4 @@ We propose a Safe Pontryagin Differentiable Programming (Safe PDP) methodology, 
 
 
 
-
+ -->
