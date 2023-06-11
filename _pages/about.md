@@ -89,7 +89,7 @@ My research  focuses on optimization and control, with applications in power sys
 ##### **1. Strategic Demand response Identification**
 ---
 
-<img src="collections/research/DR/frame1.pdf"  width="150"  align="left" hspace="50" vspace=0 />
+<img src="collections/research/DR/frame1.png"  width="140"  align="left" hspace="50" vspace=0 />
 
 **Predicting Strategic Energy Storage Behaviors** <br />
 <b>Yuexin Bian</b>, Ningkun Zheng, Yang Zheng, Bolun Xu, Yuanyuan Shi<br />
@@ -100,8 +100,7 @@ Submitted to *IEEE Transactions on Smart Grid*, 2023 <br />
 <!-- [[Webpage]](../td_hybridreduction){:target="_blank"} -->
 <p style="margin-bottom:1.0cm; margin-left: 1.5cm"> </p>
 
----
-<img src="collections/research/DR/frame2.png"  title="SafePDP" width="150"  align="left" hspace="50" vspace=0 />
+<img src="collections/research/DR/frame2.png"  title="SafePDP" width="140"  align="left" hspace="60" vspace=0 />
 **Demand response model identification and behavior forecast with OptNet: A gradient-based approach** <br />
 <b>Yuexin Bian</b>, Ningkun Zheng, Yang Zheng, Bolun Xu, Yuanyuan Shi<br />
 *Proceedings of the Thirteenth ACM International Conference on Future Energy Systems*, 2022 <br />
@@ -126,7 +125,7 @@ Submitted to *IEEE Transactions on Smart Grid*, 2023 <br />
 
 ##### **2. Intelligent Electric Vehicles**
 ---
-<img src="collections/research/EV/frame1.png" width="150"  align="left" hspace="50" vspace=5 />
+<img src="collections/research/EV/frame1.png" width="140"  align="left" hspace="50" vspace=5 />
 **Carbon-Aware EV Charging** <br />
 <b>Kai-Wen Cheng, Yuexin Bian</b>, Yuanyuan Shi, Yize Chen<br />
 *IEEE International Conference on Communications, Control, and Computing Technologies for Smart Grids (SmartGridComm)*, 2022 <br />
