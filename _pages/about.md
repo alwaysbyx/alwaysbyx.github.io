@@ -89,7 +89,7 @@ My research  focuses on optimization and control, with applications in power sys
 ##### **1. Strategic Demand response Identification**
 ---
 
-<img src="collections/research/DR/frame1.png"  width="140"  align="left" hspace="50" vspace=0 />
+<img src="collections/research/DR/frame1.png"  width="160"  align="left" hspace="50" vspace=0 />
 
 **Predicting Strategic Energy Storage Behaviors** <br />
 <b>Yuexin Bian</b>, Ningkun Zheng, Yang Zheng, Bolun Xu, Yuanyuan Shi<br />
@@ -100,7 +100,7 @@ Submitted to *IEEE Transactions on Smart Grid*, 2023 <br />
 <!-- [[Webpage]](../td_hybridreduction){:target="_blank"} -->
 <p style="margin-bottom:1.0cm; margin-left: 1.5cm"> </p>
 
-<img src="collections/research/DR/frame2.png"  title="SafePDP" width="140"  align="left" hspace="60" vspace=0 />
+<img src="collections/research/DR/frame2.png"  title="SafePDP" width="140"  align="left" hspace="80" vspace=0 />
 **Demand response model identification and behavior forecast with OptNet: A gradient-based approach** <br />
 <b>Yuexin Bian</b>, Ningkun Zheng, Yang Zheng, Bolun Xu, Yuanyuan Shi<br />
 *Proceedings of the Thirteenth ACM International Conference on Future Energy Systems*, 2022 <br />
