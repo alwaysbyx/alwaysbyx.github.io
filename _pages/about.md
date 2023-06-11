@@ -30,13 +30,13 @@ I am a ~~first~~second year PhD student in [ECE department](https://www.ece.ucsd
 My research interests broadly lie in optimization and control, with applications in power system. Before starting my graduate education at UC San Diego, I completed my undergraduate degree in Electrical Engineering from [Zhejiang University](https://www.zju.edu.cn/english/){:target="_blank"}, China.
 
 
+**News:** 
+Will present our work ``Predicting Strategic Energy Storage Behaviors'' at [FERC, 2023. ](https://ferc.gov/)
+
+**News:** 
+Invited to present our work ``Demand response model identification and behavior forecast with OptNet: A gradient-based approach'' at Informs, 2022. 
+
 <!-- **News:** 
-Starting this fall 2023, I will be joining the <a href="https://engineering.asu.edu/">Ira A. Fulton Schools of Engineering</a> at Arizona State University as a tenure-track assistant professor.
-
-**News:** 
-This website will not be regularly maintained. Please visit the ASU lab website for more: [https://asu-iris.github.io/](https://asu-iris.github.io/)
-
-**News:** 
 <strong>Two Ph.D. positions are available in our lab! Please check <a href="https://asu-iris.github.io/joining/">Joining</a> for more details. The positions will commence as early as Spring 2024 and are fully funded (tuition + monthly salary). </strong> -->
 
 
@@ -89,7 +89,7 @@ My research  focuses on optimization and control, with applications in power sys
 ##### **1. Strategic Demand response Identification**
 ---
 
-<img src="collections/research/DR/frame1.png"  width="160"  align="left" hspace="50" vspace=0 />
+<img src="collections/research/DR/frame1.png"  width="140"  align="left" hspace="20" vspace=0 />
 
 **Predicting Strategic Energy Storage Behaviors** <br />
 <b>Yuexin Bian</b>, Ningkun Zheng, Yang Zheng, Bolun Xu, Yuanyuan Shi<br />
@@ -100,7 +100,7 @@ Submitted to *IEEE Transactions on Smart Grid*, 2023 <br />
 <!-- [[Webpage]](../td_hybridreduction){:target="_blank"} -->
 <p style="margin-bottom:1.0cm; margin-left: 1.5cm"> </p>
 
-<img src="collections/research/DR/frame2.png"  title="SafePDP" width="140"  align="left" hspace="80" vspace=0 />
+<img src="collections/research/DR/frame2.png"  title="SafePDP" width="140"  align="left" hspace="20" vspace=10 />
 **Demand response model identification and behavior forecast with OptNet: A gradient-based approach** <br />
 <b>Yuexin Bian</b>, Ningkun Zheng, Yang Zheng, Bolun Xu, Yuanyuan Shi<br />
 *Proceedings of the Thirteenth ACM International Conference on Future Energy Systems*, 2022 <br />
@@ -125,7 +125,7 @@ Submitted to *IEEE Transactions on Smart Grid*, 2023 <br />
 
 ##### **2. Intelligent Electric Vehicles**
 ---
-<img src="collections/research/EV/frame1.png" width="140"  align="left" hspace="50" vspace=5 />
+<img src="collections/research/EV/frame1.png" width="140"  align="left" hspace="20" vspace=5 />
 **Carbon-Aware EV Charging** <br />
 <b>Kai-Wen Cheng, Yuexin Bian</b>, Yuanyuan Shi, Yize Chen<br />
 *IEEE International Conference on Communications, Control, and Computing Technologies for Smart Grids (SmartGridComm)*, 2022 <br />
