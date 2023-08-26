@@ -142,7 +142,7 @@ My research  focuses on optimization and control, with applications in power sys
 <img src="collections/research/EV/frame1.png" width="140"  align="left" hspace="20" vspace=5 />
 **Smart building** <br />
 <b>Yuexin Bian</b>, Yuanyuan Shi<br />
-[[Webpage]](../td_hybridreduction){:target="_blank"}
+[[Webpage]](../pde_modeling){:target="_blank"}
 
 
 
