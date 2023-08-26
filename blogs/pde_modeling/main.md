@@ -59,21 +59,19 @@ Paper (Arxiv)</a>
 <p style="margin-bottom:1.0cm; margin-left: 1.5cm"> </p>
 
 
-##### **Pollutant Controlling Results**
+## **Pollutant Controlling Results**
 
-Linear Complementarity System (LCS), denoted as
+We compare three control policies here: (1) Conservative policy (2) rule-basec control policy (3) Neural network policy. <br>
+Total time 300s: there is pollutant resouce at 0-60s, 120-180s, 240-300s.
 <center>
-  <img src="../blogs/TRO_HybridReduction/figures/lcs.png"  width="320"  align="centering" hspace="0" vspace=0 />
+  <img src="../blogs/pde_modeling/figures/conserv.gif"  width="320"  align="centering" hspace="0" vspace=0 />
+  <img src="../blogs/pde_modeling/figures/rule.gif"  width="320"  align="centering" hspace="0" vspace=0 />
+  <img src="../blogs/pde_modeling/figures/conserv.gif"  width="320"  align="centering" hspace="0" vspace=0 />
 </center>
-<p style="margin-bottom:0.2cm; margin-left: 1.5cm"> </p>
-is a compact representation of a piecewise affine system. Here,   zero or non-zero of each entry of $$ \boldsymbol{\lambda} $$ determine the linear affine dynamics in each mode. The maximum number of potential modes is $$\color{red}2^{\dim \boldsymbol{\lambda}}$$. 
-For a reduced-order LCS, one can
-explicitly restrict the number of potential modes in LCS by
-setting $$\color{red}\dim \boldsymbol{\lambda}$$.
+<sub>
+</sub>
 
-The learning of a LCS  i.e., identifying all  matrices $$(A,B,C,\boldsymbol{d},D,E,F,\boldsymbol{c})$$, is based on our prior work <d-cite key="jin2022learning"></d-cite>, which enables efficiently learning a piecewise affine model with up
-to thousands of  modes and effectively handles the stiff
-dynamics that arises from contact. 
+<p style="margin-bottom:0.2cm; margin-left: 1.5cm"> </p>
 
 
 
