@@ -23,6 +23,7 @@ bibliography: blogs/TRO_HybridReduction/mybib.bib
 <center>
 <h5>
 <a href="https://alwaysbyx.github.io/" target="_blank">Yuexin Bian</a>
+</h5>
 </center>
 
 
@@ -59,16 +60,20 @@ Paper (Arxiv)</a>
 <p style="margin-bottom:1.0cm; margin-left: 1.5cm"> </p>
 
 
-## **Pollutant Controlling Results**
+### **Pollutant Controlling Results**
+
+<p style="margin-bottom:0.8cm; margin-left: 1.5cm"> </p>
+
 
 We compare three control policies here: (1) Conservative policy (2) rule-basec control policy (3) Neural network policy. <br>
 Total time 300s: there is pollutant resouce at 0-60s, 120-180s, 240-300s.
 <center>
-  <img src="../blogs/pde_modeling/figures/conserv.gif"  width="320"  align="centering" hspace="0" vspace=0 />
-  <img src="../blogs/pde_modeling/figures/rule.gif"  width="320"  align="centering" hspace="0" vspace=0 />
-  <img src="../blogs/pde_modeling/figures/conserv.gif"  width="320"  align="centering" hspace="0" vspace=0 />
+  <img src="../blogs/pde_modeling/figures/conserv.gif"  width="850"  align="centering" hspace="0" vspace=0 />
+  <img src="../blogs/pde_modeling/figures/rule.gif"  width="850"  align="centering" hspace="0" vspace=0 />
+  <img src="../blogs/pde_modeling/figures/conserv.gif"  width="850"  align="centering" hspace="0" vspace=0 />
 </center>
 <sub>
+  <b>Conservative policy (top)</b>: velocity field (left), Pollutant concentration (right). <b>Rule-based policy (middle)</b>. <b>NN policy (bottom)</b>
 </sub>
 
 <p style="margin-bottom:0.2cm; margin-left: 1.5cm"> </p>
