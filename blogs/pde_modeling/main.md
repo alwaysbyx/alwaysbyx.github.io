@@ -68,9 +68,9 @@ Paper (Arxiv)</a>
 We compare three control policies here: (1) Conservative policy (2) rule-basec control policy (3) Neural network policy. <br>
 Total time 300s: there is pollutant resouce at 0-60s, 120-180s, 240-300s.
 <center>
-  <img src="../blogs/pde_modeling/figures/conserv.gif"  width="850"  align="centering" hspace="0" vspace=0 />
+  <img src="../blogs/pde_modeling/figures/conservative.gif"  width="850"  align="centering" hspace="0" vspace=0 />
   <img src="../blogs/pde_modeling/figures/rule.gif"  width="850"  align="centering" hspace="0" vspace=0 />
-  <img src="../blogs/pde_modeling/figures/conserv.gif"  width="850"  align="centering" hspace="0" vspace=0 />
+  <img src="../blogs/pde_modeling/figures/nn.gif"  width="850"  align="centering" hspace="0" vspace=0 />
 </center>
 <sub>
   <b>Conservative policy (top)</b>: velocity field (left), Pollutant concentration (right). <b>Rule-based policy (middle)</b>. <b>NN policy (bottom)</b>
