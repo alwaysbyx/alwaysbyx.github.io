@@ -137,13 +137,13 @@ My research  focuses on optimization and control, with applications in power sys
 <p style="margin-bottom:1.8cm; margin-left: 1.5cm"> </p>
 
 
-##### **3. Smart Buildings**
+##### **3. Optimization and Control**
 ---
-<img src="collections/research/EV/frame1.png" width="140"  align="left" hspace="20" vspace=5 />
+<!-- <img src="collections/research/EV/frame1.png" width="140"  align="left" hspace="20" vspace=5 />
 **Smart building** <br />
 <b>Yuexin Bian</b>, Yuanyuan Shi<br />
 [[Webpage]](../pde_modeling){:target="_blank"}
-
+ -->
 
 
 

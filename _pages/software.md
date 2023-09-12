@@ -31,6 +31,11 @@ nav: true
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=alwaysbyx&theme=moltack&repo=e2e-DR-learning" />
 </a>
 
+<a href="https://github.com/alwaysbyx/Time-series-prediction-using-Neural-ODE-and-Neural-Flow">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=alwaysbyx&theme=moltack&repo=Time-series-prediction-using-Neural-ODE-and-Neural-Flow" />
+</a>
+
+
 
 <!-- <a href="https://github.com/wanxinjin/Learning-from-Directional-Corrections ">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=wanxinjin&theme=moltack&repo=Learning-from-Directional-Corrections " />
