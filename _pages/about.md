@@ -123,7 +123,7 @@ My research  focuses on optimization and control, with applications in power sys
 <p style="margin-bottom:1.8cm; margin-left: 1.5cm"> </p>
 
 
-##### **2. Electric Vehicles Charging Algorithms**
+##### **2. Optimization and control for Electric Vehicles**
 ---
 <img src="collections/research/EV/frame1.png" width="140"  align="left" hspace="20" vspace=5 />
 **Carbon-Aware EV Charging** <br />
@@ -137,7 +137,7 @@ My research  focuses on optimization and control, with applications in power sys
 <p style="margin-bottom:1.8cm; margin-left: 1.5cm"> </p>
 
 
-##### **3. Optimization and Control**
+##### **3. Optimization and Control for buildings**
 ---
 <!-- <img src="collections/research/EV/frame1.png" width="140"  align="left" hspace="20" vspace=5 />
 **Smart building** <br />
