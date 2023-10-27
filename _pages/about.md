@@ -68,10 +68,15 @@ Invited to present our work ``Demand response model identification and behavior 
 -----
 #### **My Research**
 
-My research  focuses on optimization and control, with applications in power system
-- **System operator side**, I focus on understanding demand response behavior. Identifying demand response model can facilitate power system operator to design new tariffs that align with the storage unit’s for-profit interests with certain system-level objectives and has potential in electric power mitigation;
+My research  focuses on optimization and control, with applications in power system.
 
-- **Flexible demand side**, I aim to develop efficient and intelligent charging strategies that optimize the utilization of grid resources while ensuring reliable and convenient charging for EV owners; also, I am interested to combine neural and control theory to conduct control with high efficiency and optimality. 
+I am interested in combining machine learning and optimization to learn the agent aims to solve an unknown optimization problem or forecast the time-series data that is the solution of an optimization problem. 
+
+I am also interested to combinining neural networks and control theory to propose control algorithms with high efficiency and optimality.
+
+<!-- - **System operator side**, I focus on understanding demand response behavior. Identifying demand response model can facilitate power system operator to design new tariffs that align with the storage unit’s for-profit interests with certain system-level objectives and has potential in electric power mitigation;
+
+- **Flexible demand side**, I aim to develop efficient and intelligent charging strategies that optimize the utilization of grid resources while ensuring reliable and convenient charging for EV owners; also, I am interested to combine neural and control theory to conduct control with high efficiency and optimality.  -->
 
 
 <p style="margin-bottom:1.2cm; margin-left: 1.5cm"> </p>
@@ -123,7 +128,7 @@ My research  focuses on optimization and control, with applications in power sys
 <p style="margin-bottom:1.8cm; margin-left: 1.5cm"> </p>
 
 
-##### **2. Optimization and control for Electric Vehicles**
+##### **2. Optimization and control**
 ---
 <img src="collections/research/EV/frame1.png" width="140"  align="left" hspace="20" vspace=5 />
 **Carbon-Aware EV Charging** <br />
@@ -139,13 +144,6 @@ My research  focuses on optimization and control, with applications in power sys
 
 ##### **3. Optimization and Control for buildings**
 ---
-<!-- <img src="collections/research/EV/frame1.png" width="140"  align="left" hspace="20" vspace=5 />
-**Smart building** <br />
-<b>Yuexin Bian</b>, Yuanyuan Shi<br />
-[[Webpage]](../pde_modeling){:target="_blank"}
- -->
-
-
 
 
 
