@@ -54,8 +54,8 @@ Invited to present our work ``Demand response model identification and behavior 
     <img src="assets/img/platform_icon/github.gif" width="35" target="_blank"></a> &nbsp;&nbsp;&nbsp;
 <!-- <a href = "https://twitter.com/jinwanxin" target="_blank">
     <img src="assets/img/platform_icon/twitter.gif" width="35" target="_blank"></a>  &nbsp;&nbsp;&nbsp; -->
-<a href = "https://space.bilibili.com/294684172?spm_id_from=333.337.0.0" target="_blank">
-    <img src="assets/img/platform_icon/bb.png" width="35" target="_blank"></a>  &nbsp;&nbsp;&nbsp;
+<!-- <a href = "https://space.bilibili.com/294684172?spm_id_from=333.337.0.0" target="_blank">
+    <img src="assets/img/platform_icon/bb.png" width="35" target="_blank"></a>  &nbsp;&nbsp;&nbsp; -->
 
 </center>
 
