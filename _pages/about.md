@@ -61,13 +61,6 @@ Invited to present our work ``Demand response model identification and behavior 
 <br />
 
 
------
-#### **News**
-- Will present my work about optimization and control for energy systems at IEEE PES General Meeting. See you in Seattle!
-- Incoming applied scientist intern at Amazon. 
-- Presented our work ``Predicting Strategic Energy Storage Behaviors'' at [FERC, 2023. ](https://ferc.gov/)
-- Invited to present our work ``Demand response model identification and behavior forecast with OptNet: A gradient-based approach'' at Informs, 2022.
-
 
 
 -----
@@ -84,7 +77,14 @@ I am also interested to combinining neural networks and control theory to propos
 - **Flexible demand side**, I aim to develop efficient and intelligent charging strategies that optimize the utilization of grid resources while ensuring reliable and convenient charging for EV owners; also, I am interested to combine neural and control theory to conduct control with high efficiency and optimality.  -->
 
 
-<p style="margin-bottom:1.2cm; margin-left: 1.5cm"> </p>
+-----
+#### **News**
+- Will present my work about optimization and control for energy systems at IEEE PES General Meeting. See you in Seattle!
+- Incoming applied scientist intern at Amazon. 
+- Presented our work ``Predicting Strategic Energy Storage Behaviors'' at [FERC, 2023. ](https://ferc.gov/)
+- Invited to present our work ``Demand response model identification and behavior forecast with OptNet: A gradient-based approach'' at Informs, 2022.
+
+
 
 
 -----
@@ -143,7 +143,7 @@ I am also interested to combinining neural networks and control theory to propos
 [[Code]](https://github.com/alwaysbyx?tab=repositories){:target="_blank"} 
 <p style="margin-bottom:1.0cm; margin-left: 1.5cm"> </p>
 
-<img src="collections/research/building/pde_framework.png"  title="pde building" width="140"  align="left" hspace="20" vspace=10 />
+<img src="collections/research/building/pde_framework.png"  title="pde building" width="140"  align="left" hspace="20" vspace=0 />
 **Ventilation and Temperature Control for Energy-efficient and Healthy Buildings: A Differentiable PDE Approach** <br />
 <b>Yuexin Bian</b>, Xiaohan Fu, Rajesh K Gupta, Yuanyuan Shi<br />
 *Applied Energy*, 2024, IF 11.2<br />
@@ -151,12 +151,12 @@ I am also interested to combinining neural networks and control theory to propos
 [[Code]](https://github.com/alwaysbyx/PDE-HVAC-control){:target="_blank"}
 <p style="margin-bottom:1.0cm; margin-left: 1.5cm"> </p>
 
-<img src="collections/research/building/dataset.png"  title="buildingdata" width="140"  align="left" hspace="20" vspace=10 />
+<img src="collections/research/building/dataset.png"  title="buildingdata" width="140"  align="left" hspace="20" vspace=0 />
 **Ventilation and Temperature Control for Energy-efficient and Healthy Buildings: A Differentiable PDE Approach** <br />
 <b>Yuexin Bian</b>, Xiaohan Fu, Rajesh K Gupta, Yuanyuan Shi<br />
-*Applied Energy*, 2024, IF 11.2<br />
+*BuildSys*, 2023<br />
 [[PDF]](https://dl.acm.org/doi/abs/10.1145/3600100.3623740){:target="_blank"} / 
-[[Homepage]](https://ucsdsmartbuilding.github.io/DATA.html){:target="_blank"}
+[[Webpage]](https://ucsdsmartbuilding.github.io/DATA.html){:target="_blank"}
 <p style="margin-bottom:1.0cm; margin-left: 1.5cm"> </p>
 
 
