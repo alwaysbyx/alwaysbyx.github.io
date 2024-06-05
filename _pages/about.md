@@ -24,20 +24,18 @@ social: false  # includes social icons at the bottom of the page
 
 
 
-I am a ~~first~~second year PhD student in [ECE department](https://www.ece.ucsd.edu/){:target="_blank"} at [University of California San Diego](https://ucsd.edu/){:target="_blank"}, advised by [Prof. Yuanyuan Shi](https://yyshi.eng.ucsd.edu/){:target="_blank"}.
+I am a ~~first~~~~second~~third year PhD student in [ECE department](https://www.ece.ucsd.edu/){:target="_blank"} at [University of California San Diego](https://ucsd.edu/){:target="_blank"}, advised by [Prof. Yuanyuan Shi](https://yyshi.eng.ucsd.edu/){:target="_blank"}.
 
 
 My research interests broadly lie in optimization and control, with applications in power system. Before starting my graduate education at UC San Diego, I completed my undergraduate degree in Electrical Engineering from [Zhejiang University](https://www.zju.edu.cn/english/){:target="_blank"}, China.
 
 
-**News:** 
+<!-- **News:** 
 Will present our work ``Predicting Strategic Energy Storage Behaviors'' at [FERC, 2023. ](https://ferc.gov/)
 
 **News:** 
-Invited to present our work ``Demand response model identification and behavior forecast with OptNet: A gradient-based approach'' at Informs, 2022. 
+Invited to present our work ``Demand response model identification and behavior forecast with OptNet: A gradient-based approach'' at Informs, 2022.  -->
 
-<!-- **News:** 
-<strong>Two Ph.D. positions are available in our lab! Please check <a href="https://asu-iris.github.io/joining/">Joining</a> for more details. The positions will commence as early as Spring 2024 and are fully funded (tuition + monthly salary). </strong> -->
 
 
 
@@ -62,6 +60,13 @@ Invited to present our work ``Demand response model identification and behavior 
 
 <br />
 
+
+-----
+#### **News**
+- Will present my work about optimization and control for energy systems at IEEE PES General Meeting. See you in Seattle!
+- Incoming applied scientist intern at Amazon. 
+- Presented our work ``Predicting Strategic Energy Storage Behaviors'' at [FERC, 2023. ](https://ferc.gov/)
+- Invited to present our work ``Demand response model identification and behavior forecast with OptNet: A gradient-based approach'' at Informs, 2022.
 
 
 
@@ -128,7 +133,7 @@ I am also interested to combinining neural networks and control theory to propos
 <p style="margin-bottom:1.8cm; margin-left: 1.5cm"> </p>
 
 
-##### **2. Optimization and control**
+##### **2. Optimization and control for energy systems**
 ---
 <img src="collections/research/EV/frame1.png" width="140"  align="left" hspace="20" vspace=5 />
 **Carbon-Aware EV Charging** <br />
@@ -136,14 +141,32 @@ I am also interested to combinining neural networks and control theory to propos
 *IEEE International Conference on Communications, Control, and Computing Technologies for Smart Grids (SmartGridComm)*, 2022 <br />
 [[PDF]](https://ieeexplore.ieee.org/abstract/document/9960988){:target="_blank"} /
 [[Code]](https://github.com/alwaysbyx?tab=repositories){:target="_blank"} 
+<p style="margin-bottom:1.0cm; margin-left: 1.5cm"> </p>
+
+<img src="collections/research/building/pde_framework.png"  title="pde building" width="140"  align="left" hspace="20" vspace=10 />
+**Ventilation and Temperature Control for Energy-efficient and Healthy Buildings: A Differentiable PDE Approach** <br />
+<b>Yuexin Bian</b>, Xiaohan Fu, Rajesh K Gupta, Yuanyuan Shi<br />
+*Applied Energy*, 2024, IF 11.2<br />
+[[PDF]](https://arxiv.org/pdf/2403.08996){:target="_blank"} / 
+[[Code]](https://github.com/alwaysbyx/PDE-HVAC-control){:target="_blank"}
+<p style="margin-bottom:1.0cm; margin-left: 1.5cm"> </p>
+
+<img src="collections/research/building/dataset.png"  title="buildingdata" width="140"  align="left" hspace="20" vspace=10 />
+**Ventilation and Temperature Control for Energy-efficient and Healthy Buildings: A Differentiable PDE Approach** <br />
+<b>Yuexin Bian</b>, Xiaohan Fu, Rajesh K Gupta, Yuanyuan Shi<br />
+*Applied Energy*, 2024, IF 11.2<br />
+[[PDF]](https://dl.acm.org/doi/abs/10.1145/3600100.3623740){:target="_blank"} / 
+[[Homepage]](https://ucsdsmartbuilding.github.io/DATA.html){:target="_blank"}
+<p style="margin-bottom:1.0cm; margin-left: 1.5cm"> </p>
 
 
 
 <p style="margin-bottom:1.8cm; margin-left: 1.5cm"> </p>
 
 
-##### **3. Optimization and Control for buildings**
----
+
+
+
 
 
 
