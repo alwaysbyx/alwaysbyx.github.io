@@ -143,7 +143,7 @@ I am also interested to combinining neural networks and control theory to propos
 [[Code]](https://github.com/alwaysbyx?tab=repositories){:target="_blank"} 
 <p style="margin-bottom:1.0cm; margin-left: 1.5cm"> </p>
 
-<img src="collections/research/building/pde_framework.png"  title="pde building" width="140"  align="left" hspace="20" vspace=20 />
+<img src="collections/research/building/pde_framework.png"  title="pde building" width="140"  align="left" hspace="20" vspace=30 />
 **Ventilation and Temperature Control for Energy-efficient and Healthy Buildings: A Differentiable PDE Approach** <br />
 <b>Yuexin Bian</b>, Xiaohan Fu, Rajesh K Gupta, Yuanyuan Shi<br />
 *Applied Energy*, 2024, IF 11.2<br />
