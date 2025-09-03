@@ -26,7 +26,7 @@ social: false  # includes social icons at the bottom of the page
 
 I am a PhD student in [ECE department](https://www.ece.ucsd.edu/){:target="_blank"} at [University of California San Diego](https://ucsd.edu/){:target="_blank"}, advised by [Prof. Yuanyuan Shi](https://yyshi.eng.ucsd.edu/){:target="_blank"}. I completed my undergraduate degree in Electrical Engineering from [Zhejiang University](https://www.zju.edu.cn/english/){:target="_blank"}, China.
 
-
+My research interests broadly span optimization and reinforcement learning. I have been developing model-guided learning methods that make optimization and control more efficient, with practical applications in energy systems and beyond. 
 
 
 
@@ -66,7 +66,7 @@ Invited to present our work ``Demand response model identification and behavior 
 -----
 #### **Research**
 
-My research interests broadly span optimization and reinforcement learning. I have been developing model-guided learning methods that make optimization and control more efficient, with practical applications in energy systems and beyond. 
+My research interests broadly span **optimization** and **reinforcement learning**. 
 
 Recently, I have been particularly interested in combining reinforcement learning with domain knowledge from optimization and related fields. By integrating principled mathematical structures and problem-specific constraints into the learning process, my goal is to develop methods that are not only sample-efficient but also capable of making intelligent, reliable, and interpretable decisions.
 
@@ -95,7 +95,7 @@ Recently, I have been particularly interested in combining reinforcement learnin
 -----
 #### **Highlighted Publications**
 
-<!-- <p style="margin-bottom:1.2cm; margin-left: 1.5cm"> </p> -->
+<p style="margin-bottom:0.5cm; margin-left: 1.5cm"> </p>
 
 
 ##### **1. Strategic Demand Response Prediction**
@@ -169,13 +169,11 @@ Recently, I have been particularly interested in combining reinforcement learnin
 ---
 #### **Experience**
 
-- **Amazon Supply Chain Optimization Team (SCOT)** | Jun 2025 – Sep 2025  
+- **Amazon Supply Chain Optimization Team (SCOT)** | Jun 2025 – Sep 2025, Seattle  
   **Topic:** Inventory Optimization with Visual Fullness   
-  **Hosts:** Serdar Karademir 
 
-- **Amazon Grocery Optimization Team** | Jun 2024 – Sep 2024  
+- **Amazon Grocery Optimization Team** | Jun 2024 – Sep 2024, Seattle
   **Topic:** Robust Macroplanogram Design  
-  **Hosts:** Serdar Karademir 
 
 
 <p style="margin-bottom:1.8cm; margin-left: 1.5cm"> </p>
