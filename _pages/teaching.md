@@ -21,7 +21,7 @@ nav: true
 <p style="margin-bottom:0.5cm; margin-left: 0.5cm"> </p>
 
 ---
-- <b>ECE 228: Machine learning for Physical Applications</b>, Spring 2023  <br/>
+- <b>ECE 228: Machine learning for Physical Applications</b>, Spring 2023, 2024, 2025  <br/>
  Role: teaching assistant and instructor for Lecture 10: OptNet <br/>
  Info: graduate course (∼ 100 students), University of California, San Diego <br/>
 

@@ -95,7 +95,7 @@ Recently, I have been particularly interested in combining reinforcement learnin
 -----
 #### **Highlighted Publications**
 
-<p style="margin-bottom:0.5cm; margin-left: 1.5cm"> </p>
+<p style="margin-bottom:0.9cm; margin-left: 1.5cm"> </p>
 
 
 ##### **1. Strategic Demand Response Prediction**
@@ -170,9 +170,9 @@ Recently, I have been particularly interested in combining reinforcement learnin
 #### **Experience**
 
 - **Amazon Supply Chain Optimization Team (SCOT)** | Jun 2025 – Sep 2025, Seattle  
-  **Topic:** Inventory Optimization with Visual Fullness   
+  **Topic:** Inventory Optimization with Visual Fullness     
 
-- **Amazon Grocery Optimization Team** | Jun 2024 – Sep 2024, Seattle
+- **Amazon Grocery Optimization Team** | Jun 2024 – Sep 2024, Seattle   
   **Topic:** Robust Macroplanogram Design  
 
 
