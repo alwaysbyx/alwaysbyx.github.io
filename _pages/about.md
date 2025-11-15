@@ -174,7 +174,7 @@ I am particularly passionate about creating algorithms that integrate principled
 
 - **Applied Scientist Intern** | **Amazon Supply Chain Optimization Team (SCOT)**  
   *Jun 2025 – Sep 2025, Seattle*  
-  Working on inventory optimization with visual fullness, developing algorithms to improve supply chain efficiency and reduce waste.
+  Working on inventory optimization with visual fullness. 
 
 - **Applied Scientist Intern** | **Amazon Grocery Optimization Team**  
   *Jun 2024 – Sep 2024, Seattle*  
