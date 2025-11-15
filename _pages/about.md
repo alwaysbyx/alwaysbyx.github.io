@@ -10,7 +10,7 @@ profile:
   address: 
 
 
-news: false  # includes a list of news items
+news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 
@@ -72,7 +72,7 @@ Recently, I have been particularly interested in combining reinforcement learnin
 
 
 
-<!-- - **System operator side**, I focus on understanding demand response behavior. Identifying demand response model can facilitate power system operator to design new tariffs that align with the storage unit’s for-profit interests with certain system-level objectives and has potential in electric power mitigation;
+<!-- - **System operator side**, I focus on understanding demand response behavior. Identifying demand response model can facilitate power system operator to design new tariffs that align with the storage unit's for-profit interests with certain system-level objectives and has potential in electric power mitigation;
 
 - **Flexible demand side**, I aim to develop efficient and intelligent charging strategies that optimize the utilization of grid resources while ensuring reliable and convenient charging for EV owners; also, I am interested to combine neural and control theory to conduct control with high efficiency and optimality. 
 
@@ -86,13 +86,24 @@ Recently, I have been particularly interested in combining reinforcement learnin
 
 
 
+<p style="margin-bottom:1.8cm; margin-left: 1.5cm"> </p>
+
+
+---
+#### **News**
+
+- **2025/11:** 1 paper *DiffOP: Reinforcement Learning of Optimization-Based Control Policies via Implicit Policy Gradients* is accepted by AAAI 2026. 
+- **2025/11:** I will be presenting at Informs 2026. 
+- **2025/11:** 1 paper *Data-driven operator learning for energy-efficient building control* is accepted by Applied Energy. 
+- **2025/09:** 1 paper *Revisiting Reinforcement Learning for LLM Reasoning from A Cross-Domain Perspective* is accepted by NeurIPS 2025. 
+
 
 <!-- -----
 <center>
     <h4><strong>Highlighted Research and Publications</strong></h4>
 </center> -->
 
------
+<!-- -----
 #### **Highlighted Publications**
 
 <p style="margin-bottom:0.9cm; margin-left: 1.5cm"> </p>
@@ -110,14 +121,14 @@ Recently, I have been particularly interested in combining reinforcement learnin
 [[Code]](https://github.com/alwaysbyx/Predicting-Strategic-Energy-Storage-Behaviors){:target="_blank"}/
 <!-- [[Video]](https://youtu.be/OvhTOQoagTM){:target="_blank"}/ -->
 <!-- [[Webpage]](../td_hybridreduction){:target="_blank"} -->
-<p style="margin-bottom:1.0cm; margin-left: 1.5cm"> </p>
+<!-- <p style="margin-bottom:1.0cm; margin-left: 1.5cm"> </p>
 
 <img src="collections/research/DR/frame2.png"  title="SafePDP" width="140"  align="left" hspace="20" vspace=10 />
 **Demand response model identification and behavior forecast with OptNet: A gradient-based approach** <br />
 <b>Yuexin Bian</b>, Ningkun Zheng, Yang Zheng, Bolun Xu, Yuanyuan Shi<br />
 *Proceedings of the Thirteenth ACM International Conference on Future Energy Systems*, 2022 <br />
 [[PDF]](https://dl.acm.org/doi/abs/10.1145/3538637.3538871){:target="_blank"} / 
-[[Code]](https://github.com/alwaysbyx/e2e-DR-learning){:target="_blank"}
+[[Code]](https://github.com/alwaysbyx/e2e-DR-learning){:target="_blank"} -->
 
 
 <!-- ---
@@ -130,7 +141,7 @@ Recently, I have been particularly interested in combining reinforcement learnin
 [Video coming soon] -->
 
 
-
+<!-- 
 
 <p style="margin-bottom:1.8cm; margin-left: 1.5cm"> </p>
 
@@ -164,6 +175,10 @@ Recently, I have been particularly interested in combining reinforcement learnin
 
 
 <p style="margin-bottom:1.8cm; margin-left: 1.5cm"> </p>
+ -->
+
+
+
 
 
 ---
@@ -172,7 +187,7 @@ Recently, I have been particularly interested in combining reinforcement learnin
 - **Amazon Supply Chain Optimization Team (SCOT)** | Jun 2025 – Sep 2025, Seattle  
   **Topic:** Inventory Optimization with Visual Fullness     
 
-- **Amazon Grocery Optimization Team** | Jun 2024 – Sep 2024, Seattle   
+- **Amazon Grocery Optimization** | Jun 2024 – Sep 2024, Seattle   
   **Topic:** Robust Macroplanogram Design  
 
 
