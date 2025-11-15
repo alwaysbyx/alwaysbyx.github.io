@@ -2,13 +2,12 @@
 layout: about
 title: about
 permalink: /
-description: 
+description: PhD student in ECE at UC San Diego, working on optimization and reinforcement learning for energy systems
 
 profile:
   align: right
   image: yuexin.png
   address: 
-
 
 news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
@@ -20,13 +19,11 @@ social: false  # includes social icons at the bottom of the page
 
 ## **Yuexin Bian** (边玥心)
 
-<p style="margin-bottom:0.8cm; margin-left: 0.5cm"> </p>
+<p style="margin-bottom:0.5cm; margin-left: 0.5cm"> </p>
 
+I am a PhD student in the [Department of Electrical and Computer Engineering](https://www.ece.ucsd.edu/){:target="_blank"} at [UC San Diego](https://ucsd.edu/){:target="_blank"}, where I work under the guidance of [Prof. Yuanyuan Shi](https://yyshi.eng.ucsd.edu/){:target="_blank"}. I received my B.S. in Electrical Engineering from [Zhejiang University](https://www.zju.edu.cn/english/){:target="_blank"}, China.
 
-
-I am a PhD student in [ECE department](https://www.ece.ucsd.edu/){:target="_blank"} at [University of California San Diego](https://ucsd.edu/){:target="_blank"}, advised by [Prof. Yuanyuan Shi](https://yyshi.eng.ucsd.edu/){:target="_blank"}. I completed my undergraduate degree in Electrical Engineering from [Zhejiang University](https://www.zju.edu.cn/english/){:target="_blank"}, China.
-
-My research interests broadly span optimization and reinforcement learning. I have been developing model-guided learning methods that make optimization and control more efficient, with practical applications in energy systems and beyond. 
+My research lies at the intersection of **optimization** and **reinforcement learning**, with a focus on developing model-guided learning methods that bridge the gap between theoretical foundations and practical applications. I am particularly interested in creating intelligent systems that can make efficient, reliable, and interpretable decisions in complex real-world scenarios, especially in energy systems and beyond. 
 
 
 
@@ -39,26 +36,18 @@ Invited to present our work ``Demand response model identification and behavior 
 
 
 
-<p style="margin-bottom:1.2cm; margin-left: 1.5cm"> </p>
-
-
+<p style="margin-bottom:1.0cm; margin-left: 0.5cm"> </p>
 
 <center>
     <a href = "mailto:yubian@ucsd.edu" target="_blank"> 
     <img src="assets/img/platform_icon/email.gif" width="35" target="_blank"> </a>   &nbsp;&nbsp;&nbsp;
-<a href = "https://scholar.google.com/citations?user=1ii3f54AAAAJ&hl=en" target="_blank"> 
+    <a href = "https://scholar.google.com/citations?user=1ii3f54AAAAJ&hl=en" target="_blank"> 
     <img src="assets/img/platform_icon/scholar.png" width="35" target="_blank"></a>   &nbsp;&nbsp;&nbsp;
-<a href = "https://github.com/alwaysbyx" target="_blank">
+    <a href = "https://github.com/alwaysbyx" target="_blank">
     <img src="assets/img/platform_icon/github.gif" width="35" target="_blank"></a> &nbsp;&nbsp;&nbsp;
-<!-- <a href = "https://twitter.com/jinwanxin" target="_blank">
-    <img src="assets/img/platform_icon/twitter.gif" width="35" target="_blank"></a>  &nbsp;&nbsp;&nbsp; -->
-<!-- <a href = "https://space.bilibili.com/294684172?spm_id_from=333.337.0.0" target="_blank">
-    <img src="assets/img/platform_icon/bb.png" width="35" target="_blank"></a>  &nbsp;&nbsp;&nbsp; -->
-
 </center>
 
-
-<br />
+<p style="margin-bottom:1.0cm; margin-left: 0.5cm"> </p>
 
 
 
@@ -66,10 +55,9 @@ Invited to present our work ``Demand response model identification and behavior 
 -----
 #### **Research**
 
-My research interests broadly span **optimization** and **reinforcement learning**. 
+My research focuses on developing **model-guided learning methods** that combine the power of reinforcement learning with domain knowledge from optimization and control theory. 
 
-Recently, I have been particularly interested in combining reinforcement learning with domain knowledge from optimization and related fields. By integrating principled mathematical structures and problem-specific constraints into the learning process, my goal is to develop methods that are not only sample-efficient but also capable of making intelligent, reliable, and interpretable decisions.
-
+I am particularly passionate about creating algorithms that integrate principled mathematical structures and problem-specific constraints into the learning process. The goal is to develop methods that are not only **sample-efficient** but also capable of making **intelligent, reliable, and interpretable decisions** in complex real-world systems.
 
 
 <!-- - **System operator side**, I focus on understanding demand response behavior. Identifying demand response model can facilitate power system operator to design new tariffs that align with the storage unit's for-profit interests with certain system-level objectives and has potential in electric power mitigation;
@@ -92,10 +80,10 @@ Recently, I have been particularly interested in combining reinforcement learnin
 ---
 #### **News**
 
-- **2025/11:** 1 paper *DiffOP: Reinforcement Learning of Optimization-Based Control Policies via Implicit Policy Gradients* is accepted by AAAI 2026. 
-- **2025/11:** I will be presenting at Informs 2026. 
-- **2025/11:** 1 paper *Data-driven operator learning for energy-efficient building control* is accepted by Applied Energy. 
-- **2025/09:** 1 paper *Revisiting Reinforcement Learning for LLM Reasoning from A Cross-Domain Perspective* is accepted by NeurIPS 2025. 
+- **Nov 2025:** 🎉 Our paper *"DiffOP: Reinforcement Learning of Optimization-Based Control Policies via Implicit Policy Gradients"* has been accepted to **AAAI 2026**.
+- **Nov 2025:** 📢 I will be presenting at **INFORMS 2026**.
+- **Nov 2025:** 🎉 Our paper *"Data-driven operator learning for energy-efficient building control"* has been accepted to **Applied Energy**.
+- **Sep 2025:** 🎉 Our paper *"Revisiting Reinforcement Learning for LLM Reasoning from A Cross-Domain Perspective"* has been accepted to **NeurIPS 2025**. 
 
 
 <!-- -----
@@ -184,11 +172,13 @@ Recently, I have been particularly interested in combining reinforcement learnin
 ---
 #### **Experience**
 
-- **Amazon Supply Chain Optimization Team (SCOT)** | Jun 2025 – Sep 2025, Seattle  
-  **Topic:** Inventory Optimization with Visual Fullness     
+- **Applied Scientist Intern** | **Amazon Supply Chain Optimization Team (SCOT)**  
+  *Jun 2025 – Sep 2025, Seattle*  
+  Working on inventory optimization with visual fullness, developing algorithms to improve supply chain efficiency and reduce waste.
 
-- **Amazon Grocery Optimization** | Jun 2024 – Sep 2024, Seattle   
-  **Topic:** Robust Macroplanogram Design  
+- **Applied Scientist Intern** | **Amazon Grocery Optimization Team**  
+  *Jun 2024 – Sep 2024, Seattle*  
+  Developed robust macroplanogram design solutions to optimize store layouts and improve customer experience.  
 
 
 <p style="margin-bottom:1.8cm; margin-left: 1.5cm"> </p>
